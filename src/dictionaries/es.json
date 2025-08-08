@@ -1,0 +1,17 @@
+{
+	"navbar": {
+		"links": [
+			{ "id": "1", "label": "Habilidades", "href": "#skills" },
+			{ "id": "2", "label": "Projectos", "href": "#projects" },
+			{ "id": "3", "label": "Contacto", "href": "#contact" },
+			{ "id": "4", "label": "Currículum", "href": "#resume" }
+		]
+	},
+	"hero": {
+		"description": "Desarrolladora web junior. Me apasiona crear soluciones escalables, funcionales y elegantes. Me especializo en React, NextJs y tecnologias front-end modernas.",
+		"badges": ["25 años", "Mujer", "Diseño gráfico, desarrollo web"]
+	},
+	"footer": {
+		"madeWith": "Hecho con ❤️ por su servidora"
+	}
+}

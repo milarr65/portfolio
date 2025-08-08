@@ -1,7 +1,12 @@
+"use client";
+
 import { Badge } from "@/components/ui/badge";
+import { useLocale } from "@/contexts/locale-context";
 import Image from "next/image";
 
 export default function HeroSection() {
+	const { dict } = useLocale();
+
 	return (
 		<section className="w-full py-12 md:py-24 lg:py-32">
 			<div className="container px-4 md:px-6">
@@ -24,9 +29,7 @@ export default function HeroSection() {
 								Camila Arroyo
 							</h1>
 							<p className="max-w-[600px] text-lg text-muted-foreground md:text-xl lg:text-2xl">
-								Full-stack developer passionate about creating beautiful,
-								functional web experiences. I specialize in React, Next.js, and
-								modern web technologies to bring ideas to life.
+								{dict.hero.description}
 							</p>
 						</div>
 						<div className="flex flex-wrap gap-3">
@@ -34,20 +37,20 @@ export default function HeroSection() {
 								variant="secondary"
 								className="px-4 py-2 text-sm font-medium"
 							>
-								📅 25 years old
+								{"📅 " + dict.hero.badges[0]} {/*age*/}
 							</Badge>
 							<Badge
 								variant="secondary"
 								className="px-4 py-2 text-sm font-medium"
 							>
-								👨‍💻 Female
+								{"👨‍💻 " + dict.hero.badges[1]} {/* gender */}
 							</Badge>
 							<Badge
 								aria-description="Studies and experience"
 								variant="secondary"
 								className="px-4 py-2 text-sm font-medium"
 							>
-								🎓 Graphic design, Web Development
+								{"🎓 " + dict.hero.badges[2]} {/* studies */}
 							</Badge>
 						</div>
 					</div>

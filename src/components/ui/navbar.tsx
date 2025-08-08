@@ -1,6 +1,5 @@
 "use client";
 
-import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import {
 	DropdownMenu,
@@ -10,17 +9,14 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { Moon, Sun, Globe } from "lucide-react";
 import { useTheme } from "next-themes";
+import LanguageSwitcher from "../lang-switcher";
+import { useLocale } from "@/contexts/locale-context";
 
 export default function Navbar() {
-	const { theme, setTheme } = useTheme();
-	const [language, setLanguage] = useState("en");
+	const dict = useLocale();
+	const navLinks = dict.dict.navbar.links;
 
-	const navLinks = [
-		{ href: "#skills", label: language === "en" ? "Skills" : "Habilidades" },
-		{ href: "#projects", label: language === "en" ? "Projects" : "Proyectos" },
-		{ href: "#contact", label: language === "en" ? "Contact" : "Contacto" },
-		{ href: "#resume", label: language === "en" ? "Resume" : "Currículum" },
-	];
+	const { theme, setTheme } = useTheme();
 
 	return (
 		<nav className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 flex justify-center">
@@ -36,7 +32,7 @@ export default function Navbar() {
 				<div className="hidden md:flex items-center space-x-8">
 					{navLinks.map((link) => (
 						<a
-							key={link.href}
+							key={link.id}
 							href={link.href}
 							className="text-sm font-medium transition-colors hover:text-primary"
 						>
@@ -47,8 +43,9 @@ export default function Navbar() {
 
 				{/* Right side controls */}
 				<div className="flex items-center space-x-2">
+					<LanguageSwitcher currentLang={dict.lang} />
 					{/* Language Toggle */}
-					<DropdownMenu>
+					{/* <DropdownMenu>
 						<DropdownMenuTrigger asChild>
 							<Button variant="ghost" size="sm">
 								<Globe className="h-4 w-4" />
@@ -65,7 +62,7 @@ export default function Navbar() {
 								🇪🇸 Español
 							</DropdownMenuItem>
 						</DropdownMenuContent>
-					</DropdownMenu>
+					</DropdownMenu> */}
 
 					{/* Theme Toggle */}
 					<Button
