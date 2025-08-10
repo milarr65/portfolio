@@ -1,5 +1,7 @@
 import HeroSection from "@/components/ui/hero-section";
 import Navbar from "@/components/ui/navbar";
+import ProjectsSection from "@/components/ui/projects-section";
+import SkillsSection from "@/components/ui/skills-section";
 import { getDictionary } from "@/dictionaries/dictionaries";
 import { Copyright } from "lucide-react";
 
@@ -16,6 +18,8 @@ export default async function Home({
 			<Navbar />
 			<main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
 				<HeroSection />
+				<SkillsSection />
+				<ProjectsSection />
 			</main>
 			<footer className="flex flex-col gap-[24px] flex-wrap items-center justify-center w-full">
 				<p>{dict.footer.madeWith}</p>

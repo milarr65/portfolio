@@ -8,9 +8,176 @@
 		]
 	},
 	"hero": {
+		"tagline": "Desarrolladora Web Junior",
 		"description": "Desarrolladora web junior. Me apasiona crear soluciones escalables, funcionales y elegantes. Me especializo en React, NextJs y tecnologias front-end modernas.",
-		"badges": ["25 años", "Mujer", "Diseño gráfico, desarrollo web"]
+		"badges": [
+			{
+				"id": "1",
+				"name": "age",
+				"value": "25 años",
+				"emoji": "📆"
+			},
+			{
+				"id": "2",
+				"name": "studies",
+				"value": "Diseño gráfico",
+				"emoji": "🖌️"
+			},
+			{
+				"id": "3",
+				"name": "career",
+				"value": "Desarrollo Web",
+				"emoji": "💻"
+			},
+			{
+				"id": "4",
+				"name": "location",
+				"value": "Ciudad de México",
+				"emoji": "🇲🇽"
+			}
+		]
 	},
+	"skills": {
+		"types": [
+			{
+				"name": "Frontend",
+				"content": [
+					{
+						"id": "1",
+						"label": "React",
+						"href": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+						"level": "Avanzado",
+						"color": "emerald"
+					},
+					{
+						"id": "2",
+						"label": "HTML",
+						"href": "https://img.icons8.com/?size=100&id=20909&format=png&color=000000",
+						"level": "Avanzado",
+						"color": "emerald"
+					},
+					{
+						"id": "3",
+						"label": "CSS",
+						"href": "https://img.icons8.com/?size=100&id=21278&format=png&color=000000",
+						"level": "Avanzado",
+						"color": "emerald"
+					},
+					{
+						"id": "4",
+						"label": "Javascript",
+						"href": "https://img.icons8.com/?size=100&id=108784&format=png&color=000000",
+						"level": "Avanzado",
+						"color": "emerald"
+					},
+					{
+						"id": "5",
+						"label": "Next.js",
+						"href": "/next.svg",
+						"level": "Basico",
+						"color": "indigo"
+					}
+				]
+			},
+			{
+				"name": "Backend",
+				"content": [
+					{
+						"id": "1",
+						"label": "Node.js",
+						"href": "https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000",
+						"level": "Intermedio",
+						"color": "amber"
+					},
+					{
+						"id": "2",
+						"label": "Express.js",
+						"href": "https://img.icons8.com/?size=100&id=PZQVBAxaueDJ&format=png&color=000000",
+						"level": "Intermedio",
+						"color": "amber"
+					},
+					{
+						"id": "3",
+						"label": "Axios (HTTP client)",
+						"href": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Axios_logo_%282020%29.svg",
+						"level": "Intermedio",
+						"color": "amber"
+					}
+				]
+			},
+			{
+				"name": "Others",
+				"content": [
+					{
+						"id": "1",
+						"label": "Python",
+						"href": "https://img.icons8.com/?size=100&id=13441&format=png&color=000000",
+						"level": "Intermedio",
+						"color": "amber"
+					},
+					{
+						"id": "2",
+						"label": "PostgreSQL",
+						"href": "https://img.icons8.com/?size=100&id=38561&format=png&color=000000",
+						"level": "Basico",
+						"color": "indigo"
+					},
+					{
+						"id": "3",
+						"label": "Supabase",
+						"href": "https://img.icons8.com/?size=100&id=sH0rW2TvYdr9&format=png&color=000000",
+						"level": "Basico",
+						"color": "indigo"
+					},
+					{
+						"id": "4",
+						"label": "Git",
+						"href": "https://img.icons8.com/?size=100&id=20906&format=png&color=000000",
+						"level": "Basico",
+						"color": "indigo"
+					}
+				]
+			}
+		]
+	},
+	"projects": [
+		{
+			"id": "1",
+			"name": "BlogUi",
+			"description": "Un blog sencillo hecho con React y daisyui. Cualquiera puede crear nuevos posts, asi como editar y borrar posts existentes.",
+			"tools": ["React", "daisyui", "TipTap", "Tailwind"],
+			"githubLink": "https://github.com/milarr65/blog-app",
+			"siteLink": "https://blog-app-ten-flax.vercel.app/",
+			"imgPath": "/projects/blogui.png"
+		},
+		{
+			"id": "2",
+			"name": "Movie Finder",
+			"description": "Página para buscar información sobre películas y series. Use la api de TMDB para obtener las imagenes y detalles necesarios.",
+			"tools": ["Node js", "express js", "Javascript", "EJS"],
+			"githubLink": "https://github.com/milarr65/Movie-Finder",
+			"siteLink": "https://movie-finder-gly4.onrender.com/",
+			"imgPath": "/projects/movie-finder.png"
+		},
+		{
+			"id": "3",
+			"name": "Typing Speed Test",
+			"description": "App minimalista que mide tu rapides al escribir, cuenta con ajustes como duracion del test y nivel de dificultad. Hecha con Python, inspirada en monkeytype.",
+			"tools": ["Python", "CSS", "NiceGui"],
+			"githubLink": "https://github.com/milarr65/Typing-Speed-Test",
+			"siteLink": "",
+			"imgPath": "/projects/typing-speed-test.png"
+		},
+		{
+			"id": "4",
+			"name": "Book Notes",
+			"description": "App digital donde puedo llevar un registro de los libros que he leido, las reseñas se guardan en una base de datos de Postgresql. Use la api de The Open Library para obtener la informacion y portas de los libros.",
+			"tools": ["Node js", "Express js", "Bootstrap", "PostgreSQL"],
+			"githubLink": "https://github.com/milarr65/Book-Notes",
+			"siteLink": "https://book-notes-rksb.onrender.com/",
+			"imgPath": "/projects/book-notes.png"
+		}
+	],
 	"footer": {
 		"madeWith": "Hecho con ❤️ por su servidora"
 	}

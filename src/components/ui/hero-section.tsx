@@ -15,8 +15,8 @@ export default function HeroSection() {
 						<div className="relative">
 							<Image
 								src="/dbd5bbf6fd6c7e9f7611f8ae94130067.jpg"
-								width={350}
-								height={350}
+								width={150}
+								height={150}
 								alt="Professional headshot"
 								className="aspect-square overflow-hidden rounded-full object-cover shadow-lg"
 							/>
@@ -25,33 +25,27 @@ export default function HeroSection() {
 					</div>
 					<div className="flex flex-col justify-center space-y-6">
 						<div className="space-y-4">
-							<h1 className="text-4xl font-bold tracking-tight sm:text-4xl md:text-5xl lg:text-6xl">
+							<h1 className="text-3xl font-bold tracking-tight md:text-4xl lg:text-6xl">
 								Camila Arroyo
 							</h1>
+							<p className="text-xl text-muted-foreground md:text-2xl lg:text-3xl">
+								{dict.hero.tagline}
+							</p>
 							<p className="max-w-[600px] text-lg text-muted-foreground md:text-xl lg:text-2xl">
 								{dict.hero.description}
 							</p>
 						</div>
 						<div className="flex flex-wrap gap-3">
-							<Badge
-								variant="secondary"
-								className="px-4 py-2 text-sm font-medium"
-							>
-								{"📅 " + dict.hero.badges[0]} {/*age*/}
-							</Badge>
-							<Badge
-								variant="secondary"
-								className="px-4 py-2 text-sm font-medium"
-							>
-								{"👨‍💻 " + dict.hero.badges[1]} {/* gender */}
-							</Badge>
-							<Badge
-								aria-description="Studies and experience"
-								variant="secondary"
-								className="px-4 py-2 text-sm font-medium"
-							>
-								{"🎓 " + dict.hero.badges[2]} {/* studies */}
-							</Badge>
+							{dict.hero.badges.map((badge) => (
+								<Badge
+									key={badge.id}
+									variant="secondary"
+									className="px-4 py-2 text-sm font-medium"
+								>
+									<span>{badge.emoji}</span>
+									<p>{badge.value}</p>
+								</Badge>
+							))}
 						</div>
 					</div>
 				</div>

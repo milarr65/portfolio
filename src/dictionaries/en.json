@@ -8,8 +8,175 @@
 		]
 	},
 	"hero": {
-		"description": "Full-stack developer passionate about creating beautiful, functional web experiences. I specialize in React, Next.js, and modern web technologies to bring ideas to life.",
-		"badges": ["25 years old", "Female", "Graphic design, web development"]
+		"tagline": "Junior Web Developer",
+		"description": "Passionate junior web developer with a keen eye for modern design and clean code. I love building interactive experiences that solve real-world problems. Specializing in React, Next.js, and modern technologies, I'm always eager to learn new frameworks and contribute to innovative projects.",
+		"badges": [
+			{
+				"id": "1",
+				"name": "age",
+				"value": "25 years old",
+				"emoji": "📆"
+			},
+			{
+				"id": "2",
+				"name": "studies",
+				"value": "Graphic design",
+				"emoji": "🖌️"
+			},
+			{
+				"id": "3",
+				"name": "career",
+				"value": "Web development",
+				"emoji": "💻"
+			},
+			{
+				"id": "4",
+				"name": "location",
+				"value": "Mexico City",
+				"emoji": "🇲🇽"
+			}
+		]
 	},
+	"skills": {
+		"types": [
+			{
+				"name": "Frontend",
+				"content": [
+					{
+						"id": "1",
+						"label": "React",
+						"href": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+						"level": "Proficient",
+						"color": "emerald"
+					},
+					{
+						"id": "2",
+						"label": "HTML",
+						"href": "https://img.icons8.com/?size=100&id=20909&format=png&color=000000",
+						"level": "Proficient",
+						"color": "emerald"
+					},
+					{
+						"id": "3",
+						"label": "CSS",
+						"href": "https://img.icons8.com/?size=100&id=21278&format=png&color=000000",
+						"level": "Proficient",
+						"color": "emerald"
+					},
+					{
+						"id": "4",
+						"label": "Javascript",
+						"href": "https://img.icons8.com/?size=100&id=108784&format=png&color=000000",
+						"level": "Proficient",
+						"color": "emerald"
+					},
+					{
+						"id": "5",
+						"label": "Next.js",
+						"href": "/next.svg",
+						"level": "Basic",
+						"color": "indigo"
+					}
+				]
+			},
+			{
+				"name": "Backend",
+				"content": [
+					{
+						"id": "1",
+						"label": "Node.js",
+						"href": "https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000",
+						"level": "Intermediate",
+						"color": "amber"
+					},
+					{
+						"id": "2",
+						"label": "Express.js",
+						"href": "https://img.icons8.com/?size=100&id=PZQVBAxaueDJ&format=png&color=000000",
+						"level": "Intermediate",
+						"color": "amber"
+					},
+					{
+						"id": "3",
+						"label": "Axios (HTTP client)",
+						"href": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Axios_logo_%282020%29.svg",
+						"level": "Intermediate",
+						"color": "amber"
+					}
+				]
+			},
+			{
+				"name": "Others",
+				"content": [
+					{
+						"id": "1",
+						"label": "Python",
+						"href": "https://img.icons8.com/?size=100&id=13441&format=png&color=000000",
+						"level": "Intermediate",
+						"color": "amber"
+					},
+					{
+						"id": "2",
+						"label": "PostgreSQL",
+						"href": "https://img.icons8.com/?size=100&id=38561&format=png&color=000000",
+						"level": "Basic",
+						"color": "indigo"
+					},
+					{
+						"id": "3",
+						"label": "Supabase",
+						"href": "https://img.icons8.com/?size=100&id=sH0rW2TvYdr9&format=png&color=000000",
+						"level": "Basic",
+						"color": "indigo"
+					},
+					{
+						"id": "4",
+						"label": "Git",
+						"href": "https://img.icons8.com/?size=100&id=20906&format=png&color=000000",
+						"level": "Basic",
+						"color": "indigo"
+					}
+				]
+			}
+		]
+	},
+	"projects": [
+		{
+			"id": "1",
+			"name": "BlogUi",
+			"description": "A simple blog made with react and daisyui. Anyone can add new posts, as well as edit and delete existing ones.",
+			"tools": ["React", "daisyui", "TipTap", "Tailwind"],
+			"githubLink": "https://github.com/milarr65/blog-app",
+			"siteLink": "https://blog-app-ten-flax.vercel.app/",
+			"imgPath": "/projects/blogui.png"
+		},
+		{
+			"id": "2",
+			"name": "Movie Finder",
+			"description": "A website where you can look up information about shows and films. I used TMDB's api to get all the necessary pictures and details.",
+			"tools": ["Node js", "express js", "Javascript", "EJS"],
+			"githubLink": "https://github.com/milarr65/Movie-Finder",
+			"siteLink": "https://movie-finder-gly4.onrender.com/",
+			"imgPath": "/projects/movie-finder.png"
+		},
+		{
+			"id": "3",
+			"name": "Typing Speed Test",
+			"description": "Minimal python app that tests your typing speed. With customization options like test duration and difficulty. It can be run as a native app or in the browser. Inspired by monkeytype.",
+			"tools": ["Python", "CSS", "NiceGui"],
+			"githubLink": "https://github.com/milarr65/Typing-Speed-Test",
+			"siteLink": "",
+			"imgPath": "/projects/typing-speed-test.png"
+		},
+		{
+			"id": "4",
+			"name": "Book Notes",
+			"description": "Web app where I can keep track of the books I've read; reviews are stored in a Postgresql database. I used The Open Library API to obtain information and covers for the books.",
+			"tools": ["Node js", "Express js", "Bootstrap", "PostgreSQL"],
+			"githubLink": "https://github.com/milarr65/Book-Notes",
+			"siteLink": "https://book-notes-rksb.onrender.com/",
+			"imgPath": "/projects/book-notes.png"
+		}
+	],
 	"footer": { "madeWith": "Made with ❤️ by yours truly" }
 }

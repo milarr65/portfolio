@@ -97,7 +97,7 @@ export default function Navbar() {
 							</DropdownMenuTrigger>
 							<DropdownMenuContent align="end" className="w-48">
 								{navLinks.map((link) => (
-									<DropdownMenuItem key={link.href} asChild>
+									<DropdownMenuItem key={link.id} asChild>
 										<a href={link.href}>{link.label}</a>
 									</DropdownMenuItem>
 								))}
