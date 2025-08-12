@@ -2,8 +2,8 @@
 	"navbar": {
 		"links": [
 			{ "id": "1", "label": "Habilidades", "href": "#skills" },
-			{ "id": "2", "label": "Projectos", "href": "#projects" },
-			{ "id": "3", "label": "Contacto", "href": "#contact" },
+			{ "id": "2", "label": "Proyectos", "href": "#projects" },
+			{ "id": "3", "label": "Contactame", "href": "#contact" },
 			{ "id": "4", "label": "Currículum", "href": "#resume" }
 		]
 	},
@@ -176,6 +176,33 @@
 			"githubLink": "https://github.com/milarr65/Book-Notes",
 			"siteLink": "https://book-notes-rksb.onrender.com/",
 			"imgPath": "/projects/book-notes.png"
+		},
+		{
+			"id": "5",
+			"name": "Tic Tac Toe",
+			"description": "Una versión simple e interactiva del juego \"gato\" para la terminal. Se puede jugar solo (contra el ordenador) o con un amigo.",
+			"tools": ["Python"],
+			"githubLink": "https://github.com/milarr65/Tic-Tac-Toe",
+			"siteLink": "",
+			"imgPath": "/projects/tictactoe.png"
+		},
+		{
+			"id": "6",
+			"name": "Watermark App",
+			"description": "Una app con la que puedes añadirle una marca de agua a tus imágenes. Puedes personalizar el tamaño, opacidad, fuente y posición de la marca.",
+			"tools": ["Python", "CustomTkinter", "Pillow"],
+			"githubLink": "https://github.com/milarr65/Image-Watermarking-Desktop-App",
+			"siteLink": "",
+			"imgPath": "/projects/watermark-app.png"
+		},
+		{
+			"id": "7",
+			"name": "Morse Decoder",
+			"description": "Un script con el que se puede convertir código morse a texto y viceversa. Hecho para la terminal.",
+			"tools": ["Python"],
+			"githubLink": "https://github.com/milarr65/Text-to-Morse-Code-Converter",
+			"siteLink": "",
+			"imgPath": "/projects/morsecode.png"
 		}
 	],
 	"footer": {

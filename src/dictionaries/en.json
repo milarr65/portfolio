@@ -9,7 +9,7 @@
 	},
 	"hero": {
 		"tagline": "Junior Web Developer",
-		"description": "Passionate junior web developer with a keen eye for modern design and clean code. I love building interactive experiences that solve real-world problems. Specializing in React, Next.js, and modern technologies, I'm always eager to learn new frameworks and contribute to innovative projects.",
+		"description": "Hi! I'm a passionate junior web developer with a keen eye for modern design and clean code. I love building interactive experiences that solve real-world problems. Specializing in React, Next.js, and modern technologies, I'm always eager to learn new frameworks and contribute to innovative projects.",
 		"badges": [
 			{
 				"id": "1",
@@ -176,6 +176,33 @@
 			"githubLink": "https://github.com/milarr65/Book-Notes",
 			"siteLink": "https://book-notes-rksb.onrender.com/",
 			"imgPath": "/projects/book-notes.png"
+		},
+		{
+			"id": "5",
+			"name": "Tic Tac Toe",
+			"description": "A simple and interactive command line version of tic tac toe. It can be played alone (against the computer) or with a friend.",
+			"tools": ["Python"],
+			"githubLink": "https://github.com/milarr65/Tic-Tac-Toe",
+			"siteLink": "",
+			"imgPath": "/projects/tictactoe.png"
+		},
+		{
+			"id": "6",
+			"name": "Watermark App",
+			"description": "An app that applies a text watermark to your pictures. You can customize the size, opacity, font and position of the watermrk.",
+			"tools": ["Python", "CustomTkinter", "Pillow"],
+			"githubLink": "https://github.com/milarr65/Image-Watermarking-Desktop-App",
+			"siteLink": "",
+			"imgPath": "/projects/watermark-app.png"
+		},
+		{
+			"id": "7",
+			"name": "Morse Decoder",
+			"description": "A script that can convert Morse code to text and vice versa. Made for the terminal.",
+			"tools": ["Python"],
+			"githubLink": "https://github.com/milarr65/Text-to-Morse-Code-Converter",
+			"siteLink": "",
+			"imgPath": "/projects/morsecode.png"
 		}
 	],
 	"footer": { "madeWith": "Made with ❤️ by yours truly" }
