@@ -73,7 +73,7 @@
 					{
 						"id": "5",
 						"label": "Next.js",
-						"href": "/next.svg",
+						"href": "/Next.js Icon.svg",
 						"level": "Basic",
 						"color": "indigo"
 					}
@@ -144,7 +144,7 @@
 		{
 			"id": "1",
 			"name": "BlogUi",
-			"description": "A simple blog made with react and daisyui. Anyone can add new posts, as well as edit and delete existing ones.",
+			"description": "A blog made with react and styled with daisyui. It features a rich text editor that supports code blocks with syntax highlighting and media embeds. Anyone can add new posts, as well as edit and delete existing ones.",
 			"tools": ["React", "daisyui", "TipTap", "Tailwind"],
 			"githubLink": "https://github.com/milarr65/blog-app",
 			"siteLink": "https://blog-app-ten-flax.vercel.app/",
@@ -153,8 +153,8 @@
 		{
 			"id": "2",
 			"name": "Movie Finder",
-			"description": "A website where you can look up information about shows and films. I used TMDB's api to get all the necessary pictures and details.",
-			"tools": ["Node js", "express js", "Javascript", "EJS"],
+			"description": "Look up any movie or tv show that you want and you'll get all the relevant details about it, as well as images and videos. It returns results based on popularity.",
+			"tools": ["Node.js", "Express.js", "Javascript", "EJS", "CSS", "TMDB"],
 			"githubLink": "https://github.com/milarr65/Movie-Finder",
 			"siteLink": "https://movie-finder-gly4.onrender.com/",
 			"imgPath": "/projects/movie-finder.png"
@@ -162,7 +162,7 @@
 		{
 			"id": "3",
 			"name": "Typing Speed Test",
-			"description": "Minimal python app that tests your typing speed. With customization options like test duration and difficulty. It can be run as a native app or in the browser. Inspired by monkeytype.",
+			"description": "A python app that tests your typing speed. With customization options like test duration and difficulty. It can be run as a native app or in the browser. Inspired by monkeytype.",
 			"tools": ["Python", "CSS", "NiceGui"],
 			"githubLink": "https://github.com/milarr65/Typing-Speed-Test",
 			"siteLink": "",
@@ -171,8 +171,8 @@
 		{
 			"id": "4",
 			"name": "Book Notes",
-			"description": "Web app where I can keep track of the books I've read; reviews are stored in a Postgresql database. I used The Open Library API to obtain information and covers for the books.",
-			"tools": ["Node js", "Express js", "Bootstrap", "PostgreSQL"],
+			"description": "Web app where I can keep track of the books I've read; reviews are stored in a Postgresql database (I migrated my db to supabase a little while ago). I used The Open Library API to obtain information and covers for the books.",
+			"tools": ["Node js", "Express js", "Bootstrap", "PostgreSQL", "Supabase"],
 			"githubLink": "https://github.com/milarr65/Book-Notes",
 			"siteLink": "https://book-notes-rksb.onrender.com/",
 			"imgPath": "/projects/book-notes.png"
@@ -180,7 +180,7 @@
 		{
 			"id": "5",
 			"name": "Tic Tac Toe",
-			"description": "A simple and interactive command line version of tic tac toe. It can be played alone (against the computer) or with a friend.",
+			"description": "A simple and interactive command line version of tic tac toe. It can be played alone (against the computer) or with a friend. It can handle invalid inputs and commands.",
 			"tools": ["Python"],
 			"githubLink": "https://github.com/milarr65/Tic-Tac-Toe",
 			"siteLink": "",
@@ -189,7 +189,7 @@
 		{
 			"id": "6",
 			"name": "Watermark App",
-			"description": "An app that applies a text watermark to your pictures. You can customize the size, opacity, font and position of the watermrk.",
+			"description": "This app lets you apply a text watermark to your pictures. You can customize the size, opacity, font and position of the watermark.",
 			"tools": ["Python", "CustomTkinter", "Pillow"],
 			"githubLink": "https://github.com/milarr65/Image-Watermarking-Desktop-App",
 			"siteLink": "",
@@ -198,7 +198,7 @@
 		{
 			"id": "7",
 			"name": "Morse Decoder",
-			"description": "A script that can convert Morse code to text and vice versa. Made for the terminal.",
+			"description": "A script that can convert Morse code to text and vice versa. It accepts symbols and numbers. Made for the terminal.",
 			"tools": ["Python"],
 			"githubLink": "https://github.com/milarr65/Text-to-Morse-Code-Converter",
 			"siteLink": "",

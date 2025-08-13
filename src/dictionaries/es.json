@@ -73,7 +73,7 @@
 					{
 						"id": "5",
 						"label": "Next.js",
-						"href": "/next.svg",
+						"href": "/Next.js Icon.svg",
 						"level": "Basico",
 						"color": "indigo"
 					}
@@ -106,7 +106,7 @@
 				]
 			},
 			{
-				"name": "Others",
+				"name": "Otros",
 				"content": [
 					{
 						"id": "1",

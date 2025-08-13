@@ -1,17 +1,17 @@
 "use client";
 
 import { useLocale } from "@/contexts/locale-context";
-import { Button } from "./button";
+import { Button } from "./ui/button";
 import {
 	Sheet,
 	SheetContent,
 	SheetHeader,
 	SheetTitle,
 	SheetTrigger,
-} from "./sheet";
+} from "./ui/sheet";
 import { Menu } from "lucide-react";
 import { ThemeToggle } from "./theme-toggle";
-import LanguageSwitcher from "../lang-switcher";
+import LanguageSwitcher from "./lang-switcher";
 
 export default function SideMenu() {
 	const { lang, dict } = useLocale();

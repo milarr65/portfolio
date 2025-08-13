@@ -14,22 +14,14 @@ import { useTheme } from "next-themes";
 import { useLocale } from "@/contexts/locale-context";
 import SideMenu from "./SideMenu";
 import { Languages } from "lucide-react";
-import { useRouter, usePathname } from "next/navigation";
+import useSwitchLocale from "@/hooks/useSwitchLocale";
 
 export default function Navbar() {
 	const { lang, dict } = useLocale();
 	const navLinks = dict.navbar.links;
-	const router = useRouter();
-	const path = usePathname();
+	const switchTo = useSwitchLocale();
 	const { theme, setTheme } = useTheme();
 
-	function switchTo(newLang: "en" | "es") {
-		const newPath = path.replace(/^\/(en|es)/, `/${newLang}`);
-		document.cookie = `NEXT_LOCALE=${newLang}; path=/; max-age=${
-			6 * 60 * 24 * 365
-		}`;
-		router.push(newPath);
-	}
 
 	return (
 		<nav className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 flex justify-center">

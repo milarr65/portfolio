@@ -16,13 +16,13 @@ import {
 	CardContent,
 	CardDescription,
 	CardFooter,
-} from "./card";
-import { Badge } from "./badge";
-import { Button } from "./button";
+} from "./ui/card";
+import { Badge } from "./ui/badge";
+import { Button } from "./ui/button";
 import { ExternalLink } from "lucide-react";
 import { useLocale } from "@/contexts/locale-context";
 /* import { useState, useEffect } from "react";
- */import Image from "next/image";
+ */ import Image from "next/image";
 import GithubIcon from "./GithubIcon";
 
 /* function useIsMobile() {
@@ -89,7 +89,7 @@ export default function ProjectsSection() {
 													target="_blank"
 													rel="noopener noreferrer"
 												>
-													<GithubIcon className="fill-current h-4 w-4"/>
+													<GithubIcon className="fill-current h-4 w-4" />
 													Github repo
 												</a>
 											</Button>

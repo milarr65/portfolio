@@ -124,3 +124,9 @@ html {
 		@apply bg-background text-foreground;
 	}
 }
+
+@layer utilities {
+	button[data-slot="toggle-group-item"][data-state="on"] {
+		@apply bg-primary text-primary-foreground
+	}
+}

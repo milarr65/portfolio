@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { Monitor, Moon, Sun } from "lucide-react";
 import { useTheme } from "next-themes";
-import { ToggleGroup, ToggleGroupItem } from "./toggle-group";
+import { ToggleGroup, ToggleGroupItem } from "./ui/toggle-group";
 
 export function ThemeToggle({ className }: { className?: string }) {
 	const { theme, setTheme } = useTheme();
@@ -23,9 +23,11 @@ export function ThemeToggle({ className }: { className?: string }) {
 			<ToggleGroupItem value="dark" aria-label="Dark Theme">
 				<Moon />
 			</ToggleGroupItem>
+
 			<ToggleGroupItem value="system" aria-label="System Auto theme">
 				<Monitor />
 			</ToggleGroupItem>
+
 			<ToggleGroupItem value="light" aria-label="Light Theme">
 				<Sun />
 			</ToggleGroupItem>

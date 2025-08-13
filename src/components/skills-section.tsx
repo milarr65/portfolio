@@ -2,13 +2,13 @@
 
 import { Card, CardHeader, CardTitle } from "@/components/ui/card";
 import Image from "next/image";
-import { Badge } from "./badge";
+import { Badge } from "./ui/badge";
 import {
 	Accordion,
 	AccordionItem,
 	AccordionTrigger,
 	AccordionContent,
-} from "./accordion";
+} from "./ui/accordion";
 import { useLocale } from "@/contexts/locale-context";
 
 export default function SkillsSection() {
@@ -22,7 +22,7 @@ export default function SkillsSection() {
 		>
 			{/* Hidden safelist for Tailwind */}
 			<div className="hidden bg-emerald-300 dark:bg-emerald-700 bg-indigo-300 dark:bg-indigo-700 bg-slate-300 dark:bg-slate-700 bg-amber-300 dark:bg-amber-700" />
-			
+
 			<h1 className="text-3xl font-bold w-full text-center">
 				{lang === "en" ? "Skills" : "Habilidades"}
 			</h1>
@@ -39,15 +39,15 @@ export default function SkillsSection() {
 							<AccordionTrigger>{type.name}</AccordionTrigger>
 							<AccordionContent className="grid grid-cols-2 md:grid-cols-3 w-full gap-4">
 								{type.content.map((skill) => (
-									<Card className="w-auto" key={skill.id}>
+									<Card className="w-auto aspect-2/1 sm:aspect-auto" key={skill.id}>
 										<CardHeader className="flex flex-col sm:flex-row flex-wrap gap-4 items-center justify-between">
-											<div className="flex flex-row gap-3 items-center">
+											<div className="flex flex-col sm:flex-row gap-3 items-center">
 												<Image
-													src={skill.href || skill.label.slice(0, 2)}
-													width={25}
-													height={25}
-													alt="react"
-													className="w-7"
+													src={skill.href}
+													width={30}
+													height={30}
+													alt={skill.label}
+													className="w-9 h-9"
 												/>
 												<CardTitle>{skill.label}</CardTitle>
 											</div>

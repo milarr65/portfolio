@@ -1,23 +1,18 @@
 "use client";
 
-import { useRouter, usePathname } from "next/navigation";
 import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
 import { useLocale } from "@/contexts/locale-context";
 import { useState } from "react";
+import useSwitchLocale from "@/hooks/useSwitchLocale";
 
-export default function LanguageSwitcher({ className }: { className?: string }) {
-	const router = useRouter();
-	const path = usePathname();
+export default function LanguageSwitcher({
+	className,
+}: {
+	className?: string;
+}) {
 	const { lang } = useLocale();
 	const [value, setValue] = useState<"en" | "es">(lang);
-
-	function switchTo(newLang: "en" | "es") {
-		const newPath = path.replace(/^\/(en|es)/, `/${newLang}`);
-		document.cookie = `NEXT_LOCALE=${newLang}; path=/; max-age=${
-			6 * 60 * 24 * 365
-		}`;
-		router.push(newPath);
-	}
+	const switchTo = useSwitchLocale();
 
 	return (
 		<ToggleGroup
@@ -39,7 +34,7 @@ export default function LanguageSwitcher({ className }: { className?: string }) 
 				size="sm"
 				className="text-sm"
 			>
-				English
+				{lang === "en" ? "English" : "Inglés"}
 			</ToggleGroupItem>
 			<ToggleGroupItem
 				aria-label="Toggle Spanish"
@@ -47,7 +42,7 @@ export default function LanguageSwitcher({ className }: { className?: string }) 
 				size="sm"
 				className="text-sm"
 			>
-				Spanish
+				{lang === "en" ? "Spanish" : "Español"}
 			</ToggleGroupItem>
 		</ToggleGroup>
 	);
