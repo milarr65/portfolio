@@ -32,7 +32,7 @@ import { ExternalLink } from "lucide-react";
 export default function SecondProjectsSection() {
 	const { lang, dict } = useLocale();
 	return (
-		<section className="w-full flex flex-col items-center justify-center gap-10">
+		<section id="projects" className="w-full flex flex-col items-center justify-center gap-10">
 			<h2 className="text-3xl font-bold">
 				{lang === "en" ? "Projects" : "Proyectos"}
 			</h2>
