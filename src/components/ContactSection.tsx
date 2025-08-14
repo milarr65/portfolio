@@ -10,13 +10,11 @@ import { Button } from "@/components/ui/button";
 import {
 	Form,
 	FormControl,
-	FormDescription,
 	FormField,
 	FormItem,
 	FormLabel,
 	FormMessage,
 } from "@/components/ui/form";
-import { TextCursor } from "lucide-react";
 
 const formSchema = z.object({
 	name: z.string(),
@@ -36,10 +34,19 @@ export default function ContactSection() {
 		},
 	});
 
-	function onSubmit(values: z.infer<typeof formSchema>) {
-		// Do something with the form values.
-		// ✅ This will be type-safe and validated.
-		console.log(values);
+	async function onSubmit(values: z.infer<typeof formSchema>) {
+		try {
+			const res = await fetch("/api/send", {
+				method: "POST",
+				headers: { "Content-Type": "application/json" },
+				body: JSON.stringify(values),
+			});
+			const json = await res.json();
+			if (!res.ok) throw new Error(json?.error || "Failed to send email");
+		} catch (error) {
+			//TODO: create toast component for user feedback
+			console.log(error);
+		}
 	}
 
 	return (
@@ -112,6 +119,7 @@ export default function ContactSection() {
 												? "Write your message here."
 												: "Escribe tu mensaje aqui."
 										}
+										{...field}
 									/>
 								</FormControl>
 								<FormMessage />
