@@ -4,6 +4,7 @@ import "@/app/globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { LocaleProvider } from "@/contexts/locale-context";
 import { getDictionary } from "@/dictionaries/dictionaries";
+import { Toaster } from "@/components/ui/sonner";
 
 const geistSans = Geist({
 	variable: "--font-geist-sans",
@@ -48,6 +49,7 @@ export default async function RootLayout({
 				>
 					<LocaleProvider lang={lang} dict={dict}>
 						{children}
+						<Toaster richColors position="top-center"/>
 					</LocaleProvider>
 				</ThemeProvider>
 			</body>

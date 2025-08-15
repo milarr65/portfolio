@@ -15,6 +15,7 @@ import {
 	FormLabel,
 	FormMessage,
 } from "@/components/ui/form";
+import { toast } from "sonner";
 
 const formSchema = z.object({
 	name: z.string(),
@@ -42,10 +43,28 @@ export default function ContactSection() {
 				body: JSON.stringify(values),
 			});
 			const json = await res.json();
-			if (!res.ok) throw new Error(json?.error || "Failed to send email");
+			if (!res.ok) {
+				throw new Error(json?.error || "Failed to send email");
+			} else {
+				const toastMessage =
+					lang === "en"
+						? "Your email has just been sent!"
+						: "¡Tu mensaje ha sido enviado!";
+				toast.success(toastMessage, {
+					description: new Date().toLocaleString([], {
+						dateStyle: "medium",
+						timeStyle: "short",
+						hour12: true,
+					}),
+				});
+			}
 		} catch (error) {
-			//TODO: create toast component for user feedback
+			const toastError =
+				lang === "en"
+					? "Failed to send email. Try again later."
+					: "Hubo un error al enviar tu mensaje. Intenta de nuevo más tarde.";
 			console.log(error);
+			toast.error(toastError);
 		}
 	}
 
