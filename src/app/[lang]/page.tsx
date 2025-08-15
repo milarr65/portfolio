@@ -1,7 +1,6 @@
 import ContactSection from "@/components/ContactSection";
 import HeroSection from "@/components/hero-section";
 import Navbar from "@/components/navbar";
-import ProjectsSection from "@/components/projects-section";
 import SecondProjectsSection from "@/components/second-project-section";
 import SkillsSection from "@/components/skills-section";
 import { getDictionary } from "@/dictionaries/dictionaries";
