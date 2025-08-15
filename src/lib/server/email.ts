@@ -5,7 +5,7 @@ import { Resend } from "resend";
 const apiKey = process.env.RESEND_API_KEY;
 if (!apiKey) throw new Error("RESEND_API_KEY is not set");
 
-const resend = new Resend();
+const resend = new Resend(apiKey);
 
 const myEmail = process.env.MY_EMAIL;
 if (!myEmail) throw new Error("MY_EMAIL is not set");
@@ -22,7 +22,7 @@ export async function sendEmailServer({
 	html: string;
 }) {
 	const payload = {
-		from: "Acme <onboarding@resend.dev>", //this should be a verified domain by resend
+		from: `${fromName} <onboarding@resend.dev>`, //this should be a verified domain by resend
 		to: [myEmail],
 		subject,
 		html,
