@@ -73,7 +73,7 @@
 					{
 						"id": "5",
 						"label": "Next.js",
-						"href": "/Next.js Icon.svg",
+						"href": "https://www.svgrepo.com/show/354113/nextjs-icon.svg",
 						"level": "Basic",
 						"color": "indigo"
 					}
@@ -92,7 +92,7 @@
 					{
 						"id": "2",
 						"label": "Express.js",
-						"href": "https://img.icons8.com/?size=100&id=PZQVBAxaueDJ&format=png&color=000000",
+						"href": "https://img.icons8.com/?size=100&id=WNoJgbzDr3i2&format=png&color=000000",
 						"level": "Intermediate",
 						"color": "amber"
 					},
@@ -135,6 +135,27 @@
 						"href": "https://img.icons8.com/?size=100&id=20906&format=png&color=000000",
 						"level": "Basic",
 						"color": "indigo"
+					},
+					{
+						"id": "5",
+						"label": "Photoshop",
+						"href": "https://img.icons8.com/?size=100&id=NeNPFdj7MzXi&format=png&color=000000",
+						"level": "Proficient",
+						"color": "emerald"
+					},
+					{
+						"id": "6",
+						"label": "Illustrator",
+						"href": "https://img.icons8.com/?size=100&id=13631&format=png&color=000000",
+						"level": "Proficient",
+						"color": "emerald"
+					},
+					{
+						"id": "7",
+						"label": "InDesign",
+						"href": "https://img.icons8.com/?size=100&id=13675&format=png&color=000000",
+						"level": "Intermediate",
+						"color": "amber"
 					}
 				]
 			}
@@ -162,7 +183,7 @@
 		{
 			"id": "3",
 			"name": "Typing Speed Test",
-			"description": "A python app that tests your typing speed. With customization options like test duration and difficulty. It can be run as a native app or in the browser. Inspired by monkeytype.",
+			"description": "A python app to test your typing speed. With customization options like test duration and difficulty. It can be run as a native app or in the browser. Inspired by monkeytype.",
 			"tools": ["Python", "CSS", "NiceGui"],
 			"githubLink": "https://github.com/milarr65/Typing-Speed-Test",
 			"siteLink": "",
@@ -171,7 +192,7 @@
 		{
 			"id": "4",
 			"name": "Book Notes",
-			"description": "Web app where I can keep track of the books I've read; reviews are stored in a Postgresql database (I migrated my db to supabase a little while ago). I used The Open Library API to obtain information and covers for the books.",
+			"description": "Web app where I can keep track of the books I've read; reviews are stored in a Postgresql database (I migrated my db to supabase a little while ago). I used The Open Library API for book details and cover images.",
 			"tools": ["Node js", "Express js", "Bootstrap", "PostgreSQL", "Supabase"],
 			"githubLink": "https://github.com/milarr65/Book-Notes",
 			"siteLink": "https://book-notes-rksb.onrender.com/",
@@ -180,7 +201,7 @@
 		{
 			"id": "5",
 			"name": "Tic Tac Toe",
-			"description": "A simple and interactive command line version of tic tac toe. It can be played alone (against the computer) or with a friend. It can handle invalid inputs and commands.",
+			"description": "An interactive command line version of tic tac toe. You can play it by yourself (against the computer) or with a friend. It can handle invalid inputs and commands.",
 			"tools": ["Python"],
 			"githubLink": "https://github.com/milarr65/Tic-Tac-Toe",
 			"siteLink": "",
@@ -204,6 +225,5 @@
 			"siteLink": "",
 			"imgPath": "/projects/morsecode.png"
 		}
-	],
-	"footer": { "madeWith": "Made with ❤️ by yours truly" }
+	]
 }

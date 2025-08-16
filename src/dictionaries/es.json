@@ -73,7 +73,7 @@
 					{
 						"id": "5",
 						"label": "Next.js",
-						"href": "/Next.js Icon.svg",
+						"href": "https://www.svgrepo.com/show/354113/nextjs-icon.svg",
 						"level": "Basico",
 						"color": "indigo"
 					}
@@ -92,7 +92,7 @@
 					{
 						"id": "2",
 						"label": "Express.js",
-						"href": "https://img.icons8.com/?size=100&id=PZQVBAxaueDJ&format=png&color=000000",
+						"href": "https://img.icons8.com/?size=100&id=WNoJgbzDr3i2&format=png&color=000000",
 						"level": "Intermedio",
 						"color": "amber"
 					},
@@ -135,6 +135,27 @@
 						"href": "https://img.icons8.com/?size=100&id=20906&format=png&color=000000",
 						"level": "Basico",
 						"color": "indigo"
+					},
+					{
+						"id": "5",
+						"label": "Photoshop",
+						"href": "https://img.icons8.com/?size=100&id=NeNPFdj7MzXi&format=png&color=000000",
+						"level": "Avanzado",
+						"color": "emerald"
+					},
+					{
+						"id": "6",
+						"label": "Illustrator",
+						"href": "https://img.icons8.com/?size=100&id=13631&format=png&color=000000",
+						"level": "Avanzado",
+						"color": "emerald"
+					},
+					{
+						"id": "7",
+						"label": "InDesign",
+						"href": "https://img.icons8.com/?size=100&id=13675&format=png&color=000000",
+						"level": "Intermedio",
+						"color": "amber"
 					}
 				]
 			}
@@ -144,8 +165,8 @@
 		{
 			"id": "1",
 			"name": "BlogUi",
-			"description": "Un blog sencillo hecho con React y daisyui. Cualquiera puede crear nuevos posts, asi como editar y borrar posts existentes.",
-			"tools": ["React", "daisyui", "TipTap", "Tailwind"],
+			"description": "Un blog hecho con React y Daisyui. Cuenta con un editor de texto enriquecido que maneja bloques de código con colores, también acepta inserciones de contenido como imágenes, gifs y reproductor de Spotify. Cualquiera puede crear nuevos posts, así como editar y borrar posts existentes.",
+			"tools": ["React", "Daisyui", "TipTap", "Tailwind"],
 			"githubLink": "https://github.com/milarr65/blog-app",
 			"siteLink": "https://blog-app-ten-flax.vercel.app/",
 			"imgPath": "/projects/blogui.png"
@@ -153,8 +174,8 @@
 		{
 			"id": "2",
 			"name": "Movie Finder",
-			"description": "Página para buscar información sobre películas y series. Use la api de TMDB para obtener las imagenes y detalles necesarios.",
-			"tools": ["Node js", "express js", "Javascript", "EJS"],
+			"description": "Página para buscar información sobre películas y series. Utilice la API de TMDB para obtener todas las imágenes, videos y detalles necesarios.",
+			"tools": ["Node js", "Express js", "Javascript", "EJS", "CSS", "API"],
 			"githubLink": "https://github.com/milarr65/Movie-Finder",
 			"siteLink": "https://movie-finder-gly4.onrender.com/",
 			"imgPath": "/projects/movie-finder.png"
@@ -162,7 +183,7 @@
 		{
 			"id": "3",
 			"name": "Typing Speed Test",
-			"description": "App minimalista que mide tu rapides al escribir, cuenta con ajustes como duracion del test y nivel de dificultad. Hecha con Python, inspirada en monkeytype.",
+			"description": "App minimalista que mide tu rapidez al escribir, cuenta con ajustes como duración del test y nivel de dificultad. Hecha con Python, inspirada en monkeytype.",
 			"tools": ["Python", "CSS", "NiceGui"],
 			"githubLink": "https://github.com/milarr65/Typing-Speed-Test",
 			"siteLink": "",
@@ -171,8 +192,8 @@
 		{
 			"id": "4",
 			"name": "Book Notes",
-			"description": "App digital donde puedo llevar un registro de los libros que he leido, las reseñas se guardan en una base de datos de Postgresql. Use la api de The Open Library para obtener la informacion y portas de los libros.",
-			"tools": ["Node js", "Express js", "Bootstrap", "PostgreSQL"],
+			"description": "App digital donde puedo llevar un registro de los libros que he leído, las reseñas se guardan en una base de datos de PostgreSQL (Hace no mucho migré mi base de datos a Supabase). Usé la API de The Open Library para obtener la información y portadas de los libros.",
+			"tools": ["Node js", "Express js", "Bootstrap", "PostgreSQL", "API"],
 			"githubLink": "https://github.com/milarr65/Book-Notes",
 			"siteLink": "https://book-notes-rksb.onrender.com/",
 			"imgPath": "/projects/book-notes.png"
@@ -189,7 +210,7 @@
 		{
 			"id": "6",
 			"name": "Watermark App",
-			"description": "Una app con la que puedes añadirle una marca de agua a tus imágenes. Puedes personalizar el tamaño, opacidad, fuente y posición de la marca.",
+			"description": "App creada con python con la que puedes añadirle una marca de agua a tus imágenes. Puedes personalizar el tamaño, opacidad, fuente y posición de la marca.",
 			"tools": ["Python", "CustomTkinter", "Pillow"],
 			"githubLink": "https://github.com/milarr65/Image-Watermarking-Desktop-App",
 			"siteLink": "",
@@ -204,8 +225,5 @@
 			"siteLink": "",
 			"imgPath": "/projects/morsecode.png"
 		}
-	],
-	"footer": {
-		"madeWith": "Hecho con ❤️ por su servidora"
-	}
+	]
 }
