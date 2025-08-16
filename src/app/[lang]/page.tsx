@@ -1,10 +1,11 @@
 import ContactSection from "@/components/ContactSection";
+import Footer from "@/components/Footer";
 import HeroSection from "@/components/hero-section";
+import MoreAbout from "@/components/more";
 import Navbar from "@/components/navbar";
 import SecondProjectsSection from "@/components/second-project-section";
 import SkillsSection from "@/components/skills-section";
 import { getDictionary } from "@/dictionaries/dictionaries";
-import { Copyright } from "lucide-react";
 
 export default async function Home({
 	params,
@@ -22,16 +23,9 @@ export default async function Home({
 				<SkillsSection />
 				<SecondProjectsSection />
 				<ContactSection />
+				<MoreAbout />
 			</main>
-			<footer className="flex flex-col gap-[24px] flex-wrap items-center justify-center w-full bg-card p-5 !mt-[70px]">
-				<p>{dict.footer.madeWith}</p>
-				<p className="flex flex-row w-full gap-1 items-center justify-center">
-					<span>
-						<Copyright className="h-5 w-5" />
-					</span>
-					{new Date().getFullYear()} | All rights reserved
-				</p>
-			</footer>
+			<Footer />
 		</div>
 	);
 }
