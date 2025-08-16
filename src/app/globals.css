@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import "tw-animate-css";
+@plugin "@tailwindcss/typography";
 
 @custom-variant dark (&:is(.dark *));
 
@@ -127,6 +128,6 @@ html {
 
 @layer utilities {
 	button[data-slot="toggle-group-item"][data-state="on"] {
-		@apply bg-primary text-primary-foreground
+		@apply bg-primary text-primary-foreground;
 	}
 }
