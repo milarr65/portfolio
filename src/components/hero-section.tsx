@@ -17,7 +17,7 @@ export default function HeroSection() {
 				className="flex flex-col sm:flex-row gap-8 items-center w-fit"
 			>
 				<Image
-					src="/dbd5bbf6fd6c7e9f7611f8ae94130067.jpg"
+					src="/my-pics/myPicture3.jpg"
 					width={100}
 					height={100}
 					alt="Professional headshot"

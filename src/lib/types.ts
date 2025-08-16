@@ -34,7 +34,7 @@ interface HeroSection {
 	badges: BadgeType[];
 }
 
-interface Project {
+export interface Project {
 	id: string;
 	name: string;
 	description: string;
@@ -46,14 +46,9 @@ interface Project {
 
 type ProjectsDict = Project[];
 
-interface Footer {
-	madeWith: string;
-}
-
 export interface Dictionary {
 	navbar: NavbarDict;
 	hero: HeroSection;
 	skills: { types: SkillType[] };
 	projects: ProjectsDict;
-	footer: Footer;
 }

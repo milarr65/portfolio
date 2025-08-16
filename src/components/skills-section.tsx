@@ -21,7 +21,10 @@ export default function SkillsSection() {
 			id="skills"
 		>
 			{/* Hidden safelist for Tailwind */}
-			<div className="hidden bg-emerald-300 dark:bg-emerald-700 bg-indigo-300 dark:bg-indigo-700 bg-slate-300 dark:bg-slate-700 bg-amber-300 dark:bg-amber-700" />
+			{/* <div className="hidden bg-emerald-300 dark:bg-emerald-700" />
+			<div className="hidden bg-slate-300 dark:bg-slate-700" />
+			<div className="hidden bg-amber-300 dark:bg-amber-700" />
+			<div className="hidden bg-indigo-300 dark:bg-indigo-700" /> */}
 
 			<h1 className="text-3xl font-bold w-full text-center">
 				{lang === "en" ? "Skills" : "Habilidades"}
@@ -39,7 +42,10 @@ export default function SkillsSection() {
 							<AccordionTrigger>{type.name}</AccordionTrigger>
 							<AccordionContent className="grid grid-cols-2 md:grid-cols-3 w-full gap-4">
 								{type.content.map((skill) => (
-									<Card className="w-auto aspect-2/1 sm:aspect-auto" key={skill.id}>
+									<Card
+										className="w-auto aspect-2/1 sm:aspect-auto"
+										key={skill.id}
+									>
 										<CardHeader className="flex flex-col sm:flex-row flex-wrap gap-4 items-center justify-between">
 											<div className="flex flex-col sm:flex-row gap-3 items-center">
 												<Image
