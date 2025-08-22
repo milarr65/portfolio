@@ -4,19 +4,6 @@ interface NavbarLink {
 	label: string;
 }
 
-interface Skill {
-	id: string;
-	label: string;
-	href: string;
-	level: string;
-	color: string;
-}
-
-interface SkillType {
-	name: string;
-	content: Skill[];
-}
-
 interface BadgeType {
 	id: string;
 	name: string;
@@ -46,9 +33,25 @@ export interface Project {
 
 type ProjectsDict = Project[];
 
+export type Skill = {
+	id: string;
+	label: string;
+	categories: string[];
+	color: string;
+	styles: string;
+	level:
+		| "Basic"
+		| "Intermediate"
+		| "Advanced"
+		| "Básico"
+		| "Intermedio"
+		| "Avanzado";
+	tagline: string;
+};
+
 export interface Dictionary {
 	navbar: NavbarDict;
 	hero: HeroSection;
-	skills: { types: SkillType[] };
+	skills: Skill[];
 	projects: ProjectsDict;
 }

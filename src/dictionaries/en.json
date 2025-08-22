@@ -8,8 +8,8 @@
 		]
 	},
 	"hero": {
-		"tagline": "Junior Web Developer",
-		"description": "Hi! I'm a passionate junior web developer with a keen eye for modern design and clean code. I love building interactive experiences that solve real-world problems. Specializing in React, Next.js, and modern technologies, I'm always eager to learn new frameworks and contribute to innovative projects.",
+		"tagline": "Full-Stack Web Developer",
+		"description": "I’m a self-taught web developer, continuously learning and building projects to strengthen my skills. Always curious, I enjoy exploring new technologies and expanding the services I can offer.",
 		"badges": [
 			{
 				"id": "1",
@@ -37,135 +37,220 @@
 			}
 		]
 	},
-	"skills": {
-		"types": [
-			{
-				"name": "Frontend",
-				"content": [
-					{
-						"id": "1",
-						"label": "React",
-						"href": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
-						"level": "Proficient",
-						"color": "emerald"
-					},
-					{
-						"id": "2",
-						"label": "HTML",
-						"href": "https://img.icons8.com/?size=100&id=20909&format=png&color=000000",
-						"level": "Proficient",
-						"color": "emerald"
-					},
-					{
-						"id": "3",
-						"label": "CSS",
-						"href": "https://img.icons8.com/?size=100&id=21278&format=png&color=000000",
-						"level": "Proficient",
-						"color": "emerald"
-					},
-					{
-						"id": "4",
-						"label": "Javascript",
-						"href": "https://img.icons8.com/?size=100&id=108784&format=png&color=000000",
-						"level": "Proficient",
-						"color": "emerald"
-					},
-					{
-						"id": "5",
-						"label": "Next.js",
-						"href": "https://www.svgrepo.com/show/354113/nextjs-icon.svg",
-						"level": "Basic",
-						"color": "indigo"
-					}
-				]
-			},
-			{
-				"name": "Backend",
-				"content": [
-					{
-						"id": "1",
-						"label": "Node.js",
-						"href": "https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000",
-						"level": "Intermediate",
-						"color": "amber"
-					},
-					{
-						"id": "2",
-						"label": "Express.js",
-						"href": "https://img.icons8.com/?size=100&id=WNoJgbzDr3i2&format=png&color=000000",
-						"level": "Intermediate",
-						"color": "amber"
-					},
-					{
-						"id": "3",
-						"label": "Axios (HTTP client)",
-						"href": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Axios_logo_%282020%29.svg",
-						"level": "Intermediate",
-						"color": "amber"
-					}
-				]
-			},
-			{
-				"name": "Others",
-				"content": [
-					{
-						"id": "1",
-						"label": "Python",
-						"href": "https://img.icons8.com/?size=100&id=13441&format=png&color=000000",
-						"level": "Intermediate",
-						"color": "amber"
-					},
-					{
-						"id": "2",
-						"label": "PostgreSQL",
-						"href": "https://img.icons8.com/?size=100&id=38561&format=png&color=000000",
-						"level": "Basic",
-						"color": "indigo"
-					},
-					{
-						"id": "3",
-						"label": "Supabase",
-						"href": "https://img.icons8.com/?size=100&id=sH0rW2TvYdr9&format=png&color=000000",
-						"level": "Basic",
-						"color": "indigo"
-					},
-					{
-						"id": "4",
-						"label": "Git",
-						"href": "https://img.icons8.com/?size=100&id=20906&format=png&color=000000",
-						"level": "Basic",
-						"color": "indigo"
-					},
-					{
-						"id": "5",
-						"label": "Photoshop",
-						"href": "https://img.icons8.com/?size=100&id=NeNPFdj7MzXi&format=png&color=000000",
-						"level": "Proficient",
-						"color": "emerald"
-					},
-					{
-						"id": "6",
-						"label": "Illustrator",
-						"href": "https://img.icons8.com/?size=100&id=13631&format=png&color=000000",
-						"level": "Proficient",
-						"color": "emerald"
-					},
-					{
-						"id": "7",
-						"label": "InDesign",
-						"href": "https://img.icons8.com/?size=100&id=13675&format=png&color=000000",
-						"level": "Intermediate",
-						"color": "amber"
-					}
-				]
-			}
-		]
-	},
+	"skills": [
+		{
+			"id": "html",
+			"label": "HTML",
+			"categories": ["frontend"],
+			"color": "color-[#E34F26]",
+			"styles": "hover:border-[#E34F26] hover:shadow-[0_0_13px_#E34F26]",
+			"level": "Advanced",
+			"levelES": "Avanzado",
+			"tagline": "Markup language for structuring web pages",
+			"taglineES": "Lenguaje de marcado utilizado en la creación de páginas web."
+		},
+		{
+			"id": "css",
+			"label": "CSS",
+			"categories": ["frontend", "design"],
+			"categoriesES": ["frontend", "diseño"],
+			"color": "color-[#3178C6]",
+			"styles": "hover:border-[#3178C6] hover:shadow-[0_0_13px_#3178C6]",
+			"level": "Advanced",
+			"levelES": "Avanzado",
+			"tagline": "Stylesheet language for designing web pages",
+			"taglineES": "Hojas de estilo para definir el diseño visual de páginas web."
+		},
+		{
+			"id": "javascript",
+			"label": "JavaScript",
+			"categories": ["frontend", "backend"],
+			"color": "color-[#F7DF1E]",
+			"styles": "hover:border-[#F7DF1E] hover:shadow-[0_0_13px_#F7DF1E]",
+			"level": "Advanced",
+			"levelES": "Avanzado",
+			"tagline": "Programming language for interactivity and logic",
+			"taglineES": "Lenguaje de programación dinámico usado para la interactividad web."
+		},
+		{
+			"id": "typescript",
+			"label": "TypeScript",
+			"categories": ["frontend", "backend"],
+			"color": "color-[#3178C6]",
+			"styles": "hover:border-[#3178C6] hover:shadow-[0_0_13px_#3178C6]",
+			"level": "Basic",
+			"levelES": "Básico",
+			"tagline": "Typed superset of JavaScript for safer coding",
+			"taglineES": "Superconjunto de JavaScript que añade tipos estáticos y objetos basados en clases"
+		},
+		{
+			"id": "react",
+			"label": "React",
+			"categories": ["frontend"],
+			"color": "color-[#61DAFB]",
+			"styles": "hover:border-[#61DAFB] hover:shadow-[0_0_13px_#61DAFB]",
+			"level": "Advanced",
+			"levelES": "Avanzado",
+			"tagline": "Frontend framework for building UI components",
+			"taglineES": "Biblioteca Javascript para crear interfaces de usuario"
+		},
+		{
+			"id": "nextjs",
+			"label": "Next.js",
+			"categories": ["frontend", "backend", "fullstack"],
+			"color": "color-slate-400",
+			"styles": "hover:border-slate-400 hover:shadow-[0_0_13px_var(--color-slate-400)]",
+			"level": "Basic",
+			"levelES": "Básico",
+			"tagline": "Fullstack React framework with SSR and API routes",
+			"taglineES": "Marco web de desarrollo frontend para aplicaciones basadas en React"
+		},
+		{
+			"id": "nodejs",
+			"label": "Node.js",
+			"categories": ["backend"],
+			"color": "color-[#5FA04E]",
+			"styles": "hover:border-[#5FA04E] hover:shadow-[0_0_13px_#5FA04E]",
+			"level": "Intermediate",
+			"levelES": "Intermedio",
+			"tagline": "JavaScript runtime for server-side development",
+			"taglineES": "Entorno de ejecución para la capa del servidor, basado en JavaScript"
+		},
+		{
+			"id": "express",
+			"label": "Express",
+			"categories": ["backend", "api"],
+			"color": "color-slate-400",
+			"styles": "hover:border-slate-400 hover:shadow-[0_0_13px_var(--color-slate-400)]",
+			"level": "Intermediate",
+			"levelES": "Intermedio",
+			"tagline": "Minimalist web framework for Node.js APIs",
+			"taglineES": "Marco web minimalista para APIs de Node.js"
+		},
+		{
+			"id": "python",
+			"label": "Python",
+			"categories": ["backend", "scripting"],
+			"color": "color-[#3776AB]",
+			"styles": "hover:border-[#3776AB] hover:shadow-[0_0_13px_#3776AB]",
+			"level": "Intermediate",
+			"levelES": "Intermedio",
+			"tagline": "Versatile programming language for backend and scripting",
+			"taglineES": "Lenguaje de programación versátil para backend, scripting y ciencia de datos"
+		},
+		{
+			"id": "psql",
+			"label": "PostgreSQL",
+			"categories": ["database"],
+			"categoriesES": ["base de datos"],
+			"color": "color-[#4169E1]",
+			"styles": "hover:border-[#4169E1] hover:shadow-[0_0_13px_#4169E1]",
+			"level": "Basic",
+			"levelES": "Básico",
+			"tagline": "Powerful open-source relational database",
+			"taglineES": "Una poderosa base de datos relacional de código abierto."
+		},
+		{
+			"id": "supabase",
+			"label": "Supabase",
+			"categories": ["database", "backend", "auth", "fullstack"],
+			"categoriesES": ["base de datos", "backend", "auth", "fullstack"],
+			"color": "color-[#3FCF8E]",
+			"styles": "hover:border-[#3FCF8E] hover:shadow-[0_0_13px_#3FCF8E]",
+			"level": "Basic",
+			"levelES": "Básico",
+			"tagline": "Open-source Firebase alternative powered by PostgreSQL",
+			"taglineES": "Alternativa a Firebase de código abierto basada en PostgreSQL"
+		},
+		{
+			"id": "axios",
+			"label": "Axios",
+			"categories": ["frontend", "backend", "api"],
+			"color": "color-[#5A29E4]",
+			"styles": "hover:border-[#5A29E4] hover:shadow-[0_0_13px_#5A29E4]",
+			"level": "Intermediate",
+			"levelES": "Intermedio",
+			"tagline": "Promise-based HTTP client for APIs",
+			"taglineES": "Cliente HTTP basado en promesas para APIs"
+		},
+		{
+			"id": "tailwind",
+			"label": "Tailwind CSS",
+			"categories": ["frontend", "design"],
+			"categoriesES": ["frontend", "diseño"],
+			"color": "color-[#61DAFB]",
+			"styles": "hover:border-[#61DAFB] hover:shadow-[0_0_13px_#61DAFB]",
+			"level": "Intermediate",
+			"levelES": "Intermedio",
+			"tagline": "Design system & utility-first CSS framework",
+			"taglineES": "Sistema de diseño y framework CSS centrado en la utilidad"
+		},
+		{
+			"id": "git",
+			"label": "Git",
+			"categories": ["devtools", "version-control"],
+			"categoriesES": ["devtools", "Control de versiones"],
+			"color": "color-[#F05032]",
+			"styles": "hover:border-[#F05032] hover:shadow-[0_0_13px_#F05032]",
+			"level": "Basic",
+			"levelES": "Básico",
+			"tagline": "Version control system for tracking code changes",
+			"taglineES": "Sistema de control de versiones para rastrear cambios de código"
+		},
+		{
+			"id": "github",
+			"label": "GitHub",
+			"categories": ["devtools", "version-control", "collaboration"],
+			"categoriesES": ["devtools", "Control de versiones", "colaboración"],
+			"color": "color-slate-400",
+			"styles": "hover:border-slate-400 hover:shadow-[0_0_13px_slate-400]",
+			"level": "Basic",
+			"levelES": "Básico",
+			"tagline": "Platform for hosting and collaborating on Git repositories",
+			"taglineES": "Plataforma para mantener repositorios y colaborar en Git"
+		},
+		{
+			"id": "photoshop",
+			"label": "Photoshop",
+			"categories": ["design"],
+			"categoriesES": ["diseño"],
+			"color": "color-[#80B3FF]",
+			"styles": "hover:border-[#80B3FF] hover:shadow-[0_0_13px_#80B3FF]",
+			"level": "Advanced",
+			"levelES": "Avanzado",
+			"tagline": "Image editing and design tool",
+			"taglineES": "Herramienta para edición de imágenes y diseño"
+		},
+		{
+			"id": "illustrator",
+			"label": "Illustrator",
+			"categories": ["design"],
+			"categoriesES": ["diseño"],
+			"color": "color-[#F05032]",
+			"styles": "hover:border-[#F05032] hover:shadow-[0_0_13px_#F05032]",
+			"level": "Advanced",
+			"levelES": "Avanzado",
+			"tagline": "Vector graphics editor for logos and illustrations",
+			"taglineES": "Editor de gráficos vectoriales para logos e ilustraciones"
+		},
+		{
+			"id": "indesign",
+			"label": "InDesign",
+			"categories": ["design"],
+			"categoriesES": ["diseño"],
+			"color": "color-[#c4027d]",
+			"styles": "hover:border-[#c4027d] hover:shadow-[0_0_13px_#c4027d]",
+			"level": "Advanced",
+			"levelES": "Avanzado",
+			"tagline": "Layout design tool for print and digital publishing",
+			"taglineES": "Herramienta de diseño de maquetación para publicaciones impresas y digitales."
+		}
+	],
 	"projects": [
 		{
 			"id": "1",
 			"name": "BlogUi",
-			"description": "A blog made with react and styled with daisyui. It features a rich text editor that supports code blocks with syntax highlighting and media embeds. Anyone can add new posts, as well as edit and delete existing ones.",
+			"description": "A blog made with React and styled with Daisyui. It features a rich text editor that supports code blocks with syntax highlighting and media embeds. Anyone can add new posts, as well as edit and delete existing ones.",
 			"tools": ["React", "daisyui", "TipTap", "Tailwind"],
 			"githubLink": "https://github.com/milarr65/blog-app",
 			"siteLink": "https://blog-app-ten-flax.vercel.app/",
