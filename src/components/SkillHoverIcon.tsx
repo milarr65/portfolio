@@ -83,7 +83,6 @@ export default function SkillHoverIcon({
 							}`}
 						/>
 						<p className="text-lg font-bold">{skill.label}</p>
-						<p>{lang === "en" ? "Level" : "Nivel"}</p>
 						<Badge
 							variant="outline"
 							className={`${
