@@ -16,9 +16,9 @@ export default async function Home({
 	const dict = await getDictionary(lang);
 
 	return (
-		<div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen">
+		<div className="font-sans flex flex-col justify-center min-h-screen">
 			<Navbar />
-			<main className="w-full flex flex-col gap-[32px] row-start-2 items-center sm:items-start justify-center my-5">
+			<main className="w-full flex flex-1 flex-col gap-30 items-center sm:items-start justify-center my-5">
 				<HeroSection />
 				<SkillsSection />
 				<SecondProjectsSection />
