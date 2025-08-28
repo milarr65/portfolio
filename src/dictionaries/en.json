@@ -248,22 +248,34 @@
 	],
 	"projects": [
 		{
+			"id": "8",
+			"name": "My Portfolio",
+			"description": "I created this webpage to showcase my work and skills. I wanted to try using Next.js and TypeScript for a real project, since I had only used these tools for tutorials. I really liked the result and the workflow with Next.js.",
+			"tools": ["Nextjs", "Typescript", "Tailwind"],
+			"githubLink": "https://github.com/milarr65/my-portfolio",
+			"siteLink": "",
+			"imgPath": "",
+			"tagline": "My own webspace where I can showcase my work and skills"
+		},
+		{
 			"id": "1",
 			"name": "BlogUi",
 			"description": "A blog made with React and styled with Daisyui. It features a rich text editor that supports code blocks with syntax highlighting and media embeds. Anyone can add new posts, as well as edit and delete existing ones.",
-			"tools": ["React", "daisyui", "TipTap", "Tailwind"],
+			"tools": ["React", "daisyui", "TipTap", "Tailwind", "Javascript"],
 			"githubLink": "https://github.com/milarr65/blog-app",
 			"siteLink": "https://blog-app-ten-flax.vercel.app/",
-			"imgPath": "/projects/blogui.png"
+			"imgPath": "/projects/blogui.png",
+			"tagline": "A blog where anyone can create and edit posts"
 		},
 		{
 			"id": "2",
 			"name": "Movie Finder",
-			"description": "Look up any movie or tv show that you want and you'll get all the relevant details about it, as well as images and videos. It returns results based on popularity.",
-			"tools": ["Node.js", "Express.js", "Javascript", "EJS", "CSS", "TMDB"],
+			"description": "Film and TV hub where you can get relevant details, pictures and videos about any media. I got all the information from TMDB's API. For this project I decided to not use any css library and instead do all the styles myself.",
+			"tools": ["Nodejs", "Express", "Javascript", "EJS", "CSS", "API"],
 			"githubLink": "https://github.com/milarr65/Movie-Finder",
 			"siteLink": "https://movie-finder-gly4.onrender.com/",
-			"imgPath": "/projects/movie-finder.png"
+			"imgPath": "/projects/movie-finder.png",
+			"tagline": "A film and tv hub with details, pictures and videos of popular media."
 		},
 		{
 			"id": "3",
@@ -272,25 +284,28 @@
 			"tools": ["Python", "CSS", "NiceGui"],
 			"githubLink": "https://github.com/milarr65/Typing-Speed-Test",
 			"siteLink": "",
-			"imgPath": "/projects/typing-speed-test.png"
+			"imgPath": "/projects/typing-speed-test.png",
+			"tagline": "A python app to test your typing speed."
 		},
 		{
 			"id": "4",
 			"name": "Book Notes",
 			"description": "Web app where I can keep track of the books I've read; reviews are stored in a Postgresql database (I migrated my db to supabase a little while ago). I used The Open Library API for book details and cover images.",
-			"tools": ["Node js", "Express js", "Bootstrap", "PostgreSQL", "Supabase"],
+			"tools": ["Nodejs", "Express", "Bootstrap", "PostgreSQL", "Supabase"],
 			"githubLink": "https://github.com/milarr65/Book-Notes",
 			"siteLink": "https://book-notes-rksb.onrender.com/",
-			"imgPath": "/projects/book-notes.png"
+			"imgPath": "/projects/book-notes.png",
+			"tagline": "Website where I can rate and review the books I've read."
 		},
 		{
 			"id": "5",
 			"name": "Tic Tac Toe",
 			"description": "An interactive command line version of tic tac toe. You can play it by yourself (against the computer) or with a friend. It can handle invalid inputs and commands.",
-			"tools": ["Python"],
+			"tools": ["Python", "CLI"],
 			"githubLink": "https://github.com/milarr65/Tic-Tac-Toe",
 			"siteLink": "",
-			"imgPath": "/projects/tictactoe.png"
+			"imgPath": "/projects/tictactoe.png",
+			"tagline": "An interactive command line version of tic tac toe"
 		},
 		{
 			"id": "6",
@@ -299,7 +314,8 @@
 			"tools": ["Python", "CustomTkinter", "Pillow"],
 			"githubLink": "https://github.com/milarr65/Image-Watermarking-Desktop-App",
 			"siteLink": "",
-			"imgPath": "/projects/watermark-app.png"
+			"imgPath": "/projects/watermark-app.png",
+			"tagline": "This app let's you apply a watermark to your pictures"
 		},
 		{
 			"id": "7",
@@ -308,7 +324,8 @@
 			"tools": ["Python"],
 			"githubLink": "https://github.com/milarr65/Text-to-Morse-Code-Converter",
 			"siteLink": "",
-			"imgPath": "/projects/morsecode.png"
+			"imgPath": "/projects/morsecode.png",
+			"tagline": "A script that can convert Morse code to text"
 		}
 	]
 }

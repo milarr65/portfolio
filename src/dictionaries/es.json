@@ -203,67 +203,98 @@
 	],
 	"projects": [
 		{
+			"id": "8",
+			"name": "Mi Portfolio",
+			"description": "Este espacio lo creé para mostrar quién soy y mi trabajo. Quise hacer un proyecto real con Next.js y TypeScript, ya que hasta ahora solo había usado estas herramientas con tutoriales. Me gustó mucho el resultado y la experiencia con Next.js.",
+			"tools": ["Nextjs", "Typescript", "Tailwind"],
+			"githubLink": "https://github.com/milarr65/my-portfolio",
+			"siteLink": "",
+			"imgPath": "",
+			"tagline": "Mi propio espacio donde puedo mostrar mi trabajo"
+		},
+		{
 			"id": "1",
 			"name": "BlogUi",
 			"description": "Un blog hecho con React y Daisyui. Cuenta con un editor de texto enriquecido (negritas, italicas, citas, listas, etc). También acepta inserciones de contenido como imágenes, gifs y reproductor de Spotify. Cualquiera puede crear nuevos posts, así como editar y borrar posts existentes.",
-			"tools": ["React", "Daisyui", "TipTap", "Tailwind"],
+			"tools": ["React", "Daisyui", "TipTap", "Tailwind", "Javascript"],
 			"githubLink": "https://github.com/milarr65/blog-app",
 			"siteLink": "https://blog-app-ten-flax.vercel.app/",
-			"imgPath": "/projects/blogui.png"
+			"imgPath": "/projects/blogui.png",
+			"tagline": "Un blog donde cualquiera puede crear y editar posts."
 		},
 		{
 			"id": "2",
 			"name": "Movie Finder",
-			"description": "Página para buscar información sobre películas y series. Utilice la API de TMDB para obtener todas las imágenes, videos y detalles necesarios.",
-			"tools": ["Node js", "Express js", "Javascript", "EJS", "CSS", "API"],
+			"description": "Sitio web con detalles, imágenes y videos de películas y series populares. Obtuve toda la información con la API de TMDB. En esta ocasión no usé una librería de CSS, todos los estilos los creé yo.",
+			"tools": [
+				"Nodejs",
+				"Javascript",
+				"EJS",
+				"CSS",
+				"API",
+				"Axios"
+			],
 			"githubLink": "https://github.com/milarr65/Movie-Finder",
 			"siteLink": "https://movie-finder-gly4.onrender.com/",
-			"imgPath": "/projects/movie-finder.png"
+			"imgPath": "/projects/movie-finder.png",
+			"tagline": "Sitio web con detalles, imágenes y videos de películas y series populares"
 		},
 		{
 			"id": "3",
 			"name": "Typing Speed Test",
-			"description": "App minimalista que mide tu rapidez al escribir, cuenta con ajustes como duración del test y nivel de dificultad. Hecha con Python, inspirada en monkeytype.",
+			"description": "App que mide tu rapidez al escribir ne teclado. Cuenta con ajustes como duración del test y nivel de dificultad. Hecha con Python, inspirada en monkeytype.",
 			"tools": ["Python", "CSS", "NiceGui"],
 			"githubLink": "https://github.com/milarr65/Typing-Speed-Test",
 			"siteLink": "",
-			"imgPath": "/projects/typing-speed-test.png"
+			"imgPath": "/projects/typing-speed-test.png",
+			"tagline": "App que mide tu rapidez al escribir en teclado"
 		},
 		{
 			"id": "4",
 			"name": "Book Notes",
-			"description": "App digital donde puedo llevar un registro de los libros que he leído, las reseñas se guardan en una base de datos de PostgreSQL (Hace no mucho migré mi base de datos a Supabase). Usé la API de The Open Library para obtener la información y portadas de los libros.",
-			"tools": ["Node js", "Express js", "Bootstrap", "PostgreSQL", "API"],
+			"description": "Página web donde puedo calificar y escribir reseñas sobre los libros que he leído. Las reseñas se guardan en una base de datos de PostgreSQL (Hace no mucho migré a Supabase). Usé la API de The Open Library para obtener la información y portadas de los libros, y utilize Bootstrap para el estilo visual.",
+			"tools": [
+				"Express",
+				"Bootstrap",
+				"PostgreSQL",
+				"API",
+				"Supabase",
+				"Javascript"
+			],
 			"githubLink": "https://github.com/milarr65/Book-Notes",
 			"siteLink": "https://book-notes-rksb.onrender.com/",
-			"imgPath": "/projects/book-notes.png"
+			"imgPath": "/projects/book-notes.png",
+			"tagline": "Un sitio en el que puedo calificar y escribir reseñas sobre los libros que he leído."
 		},
 		{
 			"id": "5",
 			"name": "Tic Tac Toe",
-			"description": "Una versión simple e interactiva del juego \"gato\" para la terminal. Se puede jugar solo (contra el ordenador) o con un amigo.",
-			"tools": ["Python"],
+			"description": "Una versión simple e interactiva del juego \"gato\" para la terminal. Se puede jugar solo (contra el ordenador) o con un amigo. El script sabe lidiar con inputs inválidos y cuenta con comandos para cambiar el modo de juego, mostrar instrucciones y detener el código.",
+			"tools": ["Python", "Cli"],
 			"githubLink": "https://github.com/milarr65/Tic-Tac-Toe",
 			"siteLink": "",
-			"imgPath": "/projects/tictactoe.png"
+			"imgPath": "/projects/tictactoe.png",
+			"tagline": "El clásico juego de gato llevado a la terminal."
 		},
 		{
 			"id": "6",
 			"name": "Watermark App",
-			"description": "App creada con python con la que puedes añadirle una marca de agua a tus imágenes. Puedes personalizar el tamaño, opacidad, fuente y posición de la marca.",
+			"description": "App creada con Python con la que puedes añadirle una marca de agua a tus imágenes. Puedes personalizar el tamaño, opacidad, fuente y posición de la marca. Usé la librería Pillow para editar y manipular imágenes, mientras que para la interfaz opté por CustomTkinter.",
 			"tools": ["Python", "CustomTkinter", "Pillow"],
 			"githubLink": "https://github.com/milarr65/Image-Watermarking-Desktop-App",
 			"siteLink": "",
-			"imgPath": "/projects/watermark-app.png"
+			"imgPath": "/projects/watermark-app.png",
+			"tagline": "App para agregar una marca de agua a tus imágenes."
 		},
 		{
 			"id": "7",
 			"name": "Morse Decoder",
-			"description": "Un script con el que se puede convertir código morse a texto y viceversa. Hecho para la terminal.",
-			"tools": ["Python"],
+			"description": "Un script con el que se puede convertir código morse a texto y viceversa. Se puede cambiar el modo de conversion con comandos. Hecho para la terminal.",
+			"tools": ["Python", "CLI"],
 			"githubLink": "https://github.com/milarr65/Text-to-Morse-Code-Converter",
 			"siteLink": "",
-			"imgPath": "/projects/morsecode.png"
+			"imgPath": "/projects/morsecode.png",
+			"tagline": "Un script para convertir código morse a texto."
 		}
 	]
 }

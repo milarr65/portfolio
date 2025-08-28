@@ -29,6 +29,7 @@ export interface Project {
 	githubLink: string;
 	siteLink: string;
 	imgPath: string;
+	tagline: string;
 }
 
 type ProjectsDict = Project[];
