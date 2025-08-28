@@ -1,7 +1,6 @@
 "use client";
 
 import { useLocale } from "@/contexts/locale-context";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import SkillHoverIcon from "@/components/SkillHoverIcon";
 
 export default function SkillsSection() {
@@ -10,8 +9,8 @@ export default function SkillsSection() {
 
 	return (
 		<section
-			className="w-full flex flex-col justify-center items-center h-fit gap-4"
 			id="skills"
+			className="w-full flex flex-col justify-center items-center h-fit gap-4"
 		>
 			<h1 className="text-3xl font-bold w-full text-center">
 				{lang === "en" ? "Skills & Technologies" : "Tecnologías y Aptitudes"}
@@ -28,15 +27,6 @@ export default function SkillsSection() {
 					))}
 				</div>
 			</div>
-
-			<Tabs defaultValue="all" className="w-9/10 items-center gap-5">
-				<TabsList>
-					<TabsTrigger value="all">All</TabsTrigger>
-					<TabsTrigger value="frontend">Frontend</TabsTrigger>
-					<TabsTrigger value="backend">Backend</TabsTrigger>
-					<TabsTrigger value="tools">Tools & Design</TabsTrigger>
-				</TabsList>
-			</Tabs>
 		</section>
 	);
 }
