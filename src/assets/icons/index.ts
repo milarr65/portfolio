@@ -19,3 +19,5 @@ export { default as Supabase } from "./supabase-original.svg";
 export { default as Tailwind } from "./tailwindcss-original.svg";
 export { default as Typescript } from "./typescript-original.svg";
 export { default as Vite } from "./vitejs-original.svg";
+export { default as MyLogo } from "./myLogo.svg";
+export { default as MyLogoOutline } from "./myLogoOutline.svg";

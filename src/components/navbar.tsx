@@ -15,6 +15,7 @@ import { useLocale } from "@/contexts/locale-context";
 import SideMenu from "./SideMenu";
 import { Languages } from "lucide-react";
 import useSwitchLocale from "@/hooks/useSwitchLocale";
+import { MyLogo } from "@/assets/icons";
 
 export default function Navbar() {
 	const { lang, dict } = useLocale();
@@ -22,15 +23,15 @@ export default function Navbar() {
 	const switchTo = useSwitchLocale();
 	const { theme, setTheme } = useTheme();
 
-
 	return (
 		<nav className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 flex justify-center">
 			<div className="container flex h-16 items-center justify-between px-4 md:px-6">
 				{/* Logo/Name */}
-				<div id="nav-start" className="flex items-center">
-					<a href="#" className="text-xl font-bold">
-						Camila Arroyo
+				<div id="nav-start" className="flex items-center flex-row gap-3">
+					<a href="#">
+						<MyLogo className="size-6 sm:size-8 color-current fill-current" />
 					</a>
+					<p className=" text-lg sm:text-xl font-bold">Camila Arroyo</p>
 				</div>
 
 				{/* Navigation Links - Hidden on mobile */}
