@@ -22,28 +22,34 @@ export default function SecondProjectsSection() {
 	return (
 		<section
 			id="projects"
-			className="w-full flex flex-col items-center justify-center gap-10"
+			className="w-full flex flex-col items-center justify-center gap-5"
 		>
-			<h2 className="text-3xl font-bold">
-				{lang === "en" ? "Projects" : "Proyectos"}
+			<h2 className="text-3xl font-bold w-full text-center">
+				{lang === "en" ? "Featured Projects" : "Proyectos Destacados"}
 			</h2>
-			<div className="w-9/10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 min-h-[300px]">
+			<p className="text-xl text-muted-foreground max-w-2xl mx-auto text-center w-9/10">
+				{lang === "en"
+					? "Explore some of my recent work. Click on any of the cards to show more details."
+					: "Explora algunos de mis trabajos recientes. Haz click en cualquier tarjeta para mostrar más detalles."}
+			</p>
+			<div className="w-11/12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 min-h-[300px]">
 				{dict.projects.map((project) => (
 					<Dialog key={project.id}>
 						<ProjectCard project={project} lang={lang} />
-
-						<DialogContent className="sm:max-w-[425px] flex flex-col gap-7">
+						<DialogContent className="flex flex-col gap-7">
 							<DialogHeader>
-								<div className="relative aspect-4/2 mb-4">
-									<Image
-										src={project.imgPath}
-										alt={project.name}
-										fill
-										className="object-cover rounded-(--radius)"
-									/>
+								<div className="relative aspect-4/2 mb-4 rounded-(--radius) bg-muted">
+									{project.imgPath && (
+										<Image
+											src={project.imgPath}
+											alt={project.name}
+											fill
+											className="object-cover rounded-(--radius)"
+										/>
+									)}
 								</div>
-								<DialogTitle>{project.name}</DialogTitle>
-								<DialogDescription className="text-base">
+								<DialogTitle className="text-2xl">{project.name}</DialogTitle>
+								<DialogDescription className="text-lg">
 									{project.description}
 								</DialogDescription>
 							</DialogHeader>
@@ -62,18 +68,18 @@ export default function SecondProjectsSection() {
 
 							<DialogFooter className="gap-4">
 								<DialogClose asChild>
-									<Button size="sm" variant="outline">
+									<Button size="default" variant="outline">
 										{lang === "en" ? "Close" : "Cerrar"}
 									</Button>
 								</DialogClose>
-								<Button size="sm" asChild>
+								<Button size="default" asChild>
 									<a href={project.githubLink}>
 										<GithubIcon className="size-5 fill-current" />
 										{lang === "en" ? "Source Code" : "Código"}
 									</a>
 								</Button>
 								<Button
-									size="sm"
+									size="default"
 									asChild
 									className={!project.siteLink ? "hidden" : ""}
 								>
