@@ -12,7 +12,6 @@ import {
 	FormControl,
 	FormField,
 	FormItem,
-	FormLabel,
 	FormMessage,
 } from "@/components/ui/form";
 import { toast } from "sonner";
@@ -76,10 +75,10 @@ export default function ContactSection() {
 			<h1 className="text-3xl font-bold">
 				{lang === "en" ? "Get in touch" : "Contactame"}
 			</h1>
-			<p className="w-9/10 text-muted-foreground text-left sm:text-center">
+			<p className="text-xl text-muted-foreground max-w-2xl mx-auto text-center w-9/10">
 				{lang === "en"
-					? "If you have any questions or want to work with me, feel free to contact me via email or any of my social media profiles."
-					: "Si tienes alguna pregunta o deseas trabajar conmigo, no dudes en contactarme por correo o a través de cualquiera de mis redes sociales."}
+					? "If you have any questions or want to work with me, feel free to contact me via email."
+					: "Si tienes alguna pregunta o deseas trabajar conmigo, no dudes en contactarme por correo."}
 			</p>
 			<Form {...form}>
 				<form
@@ -91,9 +90,6 @@ export default function ContactSection() {
 						name="name"
 						render={({ field }) => (
 							<FormItem>
-								<FormLabel>
-									{lang === "en" ? "Your Name" : "Tu Nombre"}
-								</FormLabel>
 								<FormControl>
 									<Input
 										type="text"
@@ -112,9 +108,6 @@ export default function ContactSection() {
 						name="email"
 						render={({ field }) => (
 							<FormItem>
-								<FormLabel>
-									{lang === "en" ? "Your Email" : "Tu Email"}
-								</FormLabel>
 								<FormControl>
 									<Input type="text" placeholder="Email" {...field} required />
 								</FormControl>
@@ -128,9 +121,6 @@ export default function ContactSection() {
 						name="message"
 						render={({ field }) => (
 							<FormItem>
-								{/* <FormLabel>
-									{lang === "en" ? "Your Email" : "Tu Email"}
-								</FormLabel> */}
 								<FormControl>
 									<Textarea
 										placeholder={

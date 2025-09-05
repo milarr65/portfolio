@@ -27,13 +27,7 @@ const icons: Record<string, FC<SVGProps<SVGElement>>> = {
 	bootstrap: Icons.Bootstrap,
 };
 
-export default function ProjectCard({
-	project,
-	lang,
-}: {
-	project: Project;
-	lang: string;
-}) {
+export default function ProjectCard({ project }: { project: Project }) {
 	return (
 		<DialogTrigger asChild>
 			<Card className="px-3 py-5 hover:cursor-pointer hover:-translate-y-3 transition-all duration-300 ease-in-out hover:shadow-[0_0_13px_var(--color-slate-400)]">

@@ -8,7 +8,7 @@ export default function Footer() {
 	const { lang } = useLocale();
 	return (
 		<footer className="flex flex-col gap-6 flex-wrap items-center justify-center w-full bg-card p-5">
-			<MyLogo className="size-24 fill-current" />
+			<MyLogo className="size-18 fill-current" />
 			<p>
 				{lang === "en" ? "Made with ❤️ and Next.js" : "Hecho con ❤️ y Next.js"}
 			</p>

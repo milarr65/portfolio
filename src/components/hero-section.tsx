@@ -8,7 +8,7 @@ import { Linkedin, MyLogo } from "@/assets/icons";
 import { Button } from "./ui/button";
 
 export default function HeroSection() {
-	const { dict } = useLocale();
+	const { lang, dict } = useLocale();
 
 	return (
 		<section
@@ -26,7 +26,7 @@ export default function HeroSection() {
 						src="/my-pics/myPicture3.jpg"
 						width={120}
 						height={120}
-						alt="Professional headshot"
+						alt="my photo"
 						className="aspect-square overflow-hidden rounded-2xl object-cover shadow-lg md:size-35 size-25 lg:size-40"
 					/>
 					<div className="flex flex-col gap-3 text-center sm:text-left">
@@ -47,7 +47,7 @@ export default function HeroSection() {
 							<Badge
 								key={badge.id}
 								variant="outline"
-								className="px-4 py-2 text-xs font-medium bg-background border-2"
+								className="px-4 py-2 text-base bg-background border-2"
 							>
 								<span>{badge.emoji}</span>
 								<p>{badge.value}</p>
@@ -55,11 +55,14 @@ export default function HeroSection() {
 						))}
 					</div>
 
-					<p className="max-w-[600px] text-lg text-muted-foreground md:text-xl text-justify sm:text-center">
+					<p className="text-lg text-muted-foreground md:text-xl lg:text-2xl text-justify sm:text-center max-w-9/12">
 						{dict.hero.description}
-						<a href="#more-about" className="text-primary hover:underline">
+						<a
+							href="#more-about"
+							className="text-primary italic hover:underline"
+						>
 							{" "}
-							Read more
+							{lang === "en" ? "Read more" : "Saber más"}
 						</a>
 					</p>
 

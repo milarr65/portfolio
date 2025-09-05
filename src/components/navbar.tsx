@@ -28,10 +28,10 @@ export default function Navbar() {
 			<div className="container flex h-16 items-center justify-between px-4 md:px-6">
 				{/* Logo/Name */}
 				<div id="nav-start" className="flex items-center flex-row gap-3">
-					<a href="#">
+					<a href="/" className="flex items-center flex-row gap-3">
 						<MyLogo className="size-6 sm:size-8 color-current fill-current" />
+						<p className="text-lg sm:text-xl font-bold">Camila Arroyo</p>
 					</a>
-					<p className=" text-lg sm:text-xl font-bold">Camila Arroyo</p>
 				</div>
 
 				{/* Navigation Links - Hidden on mobile */}
@@ -41,6 +41,9 @@ export default function Navbar() {
 							key={link.id}
 							href={link.href}
 							className="text-sm font-medium transition-colors hover:text-primary"
+							{...(link.id === "4"
+								? { target: "_blank", rel: "noopener noreferrer" }
+								: {})}
 						>
 							{link.label}
 						</a>

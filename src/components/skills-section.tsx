@@ -13,7 +13,7 @@ export default function SkillsSection() {
 			className="w-full flex flex-col justify-center items-center h-fit gap-4"
 		>
 			<h1 className="text-3xl font-bold w-full text-center">
-				{lang === "en" ? "Skills & Technologies" : "Tecnologías y Aptitudes"}
+				{lang === "en" ? "Skills & Technologies" : "Aptitudes y Herramientas"}
 			</h1>
 			<p className="text-xl text-muted-foreground max-w-2xl mx-auto text-center w-9/10">
 				{lang === "en"

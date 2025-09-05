@@ -35,7 +35,7 @@ export default function SecondProjectsSection() {
 			<div className="w-11/12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 min-h-[300px]">
 				{dict.projects.map((project) => (
 					<Dialog key={project.id}>
-						<ProjectCard project={project} lang={lang} />
+						<ProjectCard project={project} />
 						<DialogContent className="flex flex-col gap-7">
 							<DialogHeader>
 								<div className="relative aspect-4/2 mb-4 rounded-(--radius) bg-muted">
@@ -72,13 +72,14 @@ export default function SecondProjectsSection() {
 										{lang === "en" ? "Close" : "Cerrar"}
 									</Button>
 								</DialogClose>
-								<Button size="default" asChild>
+								<Button variant="secondary" size="default" asChild>
 									<a href={project.githubLink}>
 										<GithubIcon className="size-5 fill-current" />
 										{lang === "en" ? "Source Code" : "Código"}
 									</a>
 								</Button>
 								<Button
+									variant="secondary"
 									size="default"
 									asChild
 									className={!project.siteLink ? "hidden" : ""}

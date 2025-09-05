@@ -5,18 +5,10 @@ import MoreAbout from "@/components/more";
 import Navbar from "@/components/navbar";
 import SecondProjectsSection from "@/components/second-project-section";
 import SkillsSection from "@/components/skills-section";
-import { getDictionary } from "@/dictionaries/dictionaries";
 
-export default async function Home({
-	params,
-}: {
-	params: Promise<{ lang: "en" | "es" }>;
-}) {
-	const { lang } = await params;
-	const dict = await getDictionary(lang);
-
+export default async function Home() {
 	return (
-		<div className="font-sans flex flex-col justify-center min-h-screen">
+		<div className="font-sans flex flex-col justify-center min-h-screen overflow-x-hidden">
 			<Navbar />
 			<main className="w-full flex flex-1 flex-col gap-30 items-center sm:items-start justify-center my-5">
 				<HeroSection />
