@@ -245,7 +245,7 @@
 			"description": "App que mide tu rapidez al escribir ne teclado. Cuenta con ajustes como duración del test y nivel de dificultad. Hecha con Python, inspirada en monkeytype.",
 			"tools": ["Python", "CSS", "NiceGui"],
 			"githubLink": "https://github.com/milarr65/Typing-Speed-Test",
-			"siteLink": "",
+			"siteLink": "https://typing-speed-test-vwkg.onrender.com",
 			"imgPath": "/projects/typing-speed-test.png",
 			"tagline": "App que mide tu rapidez al escribir en teclado"
 		},
@@ -296,5 +296,6 @@
 			"imgPath": "/projects/morsecode.png",
 			"tagline": "Un script para convertir código morse a texto."
 		}
-	]
+	],
+	"more-section": "<p>¡Hola! Soy Mila, una desarrolladora web autodidacta de 25 años que vive en Ciudad de México. Soy bilingüe (el español es mi lengua materna y he estudiado inglés desde pequeña). También me gusta aprender otros idiomas, incluso sé leer y escribir un poco de coreano.<br /><br />Originalmente, estaba estudiando diseño gráfico en la universidad después de haber cursado la carrera técnica en la preparatoria. Pero durante mi tiempo ahí, tomé una clase de <em>diseño web</em> en la que descubrí lo mucho que me gustaba trabajar con HTML y CSS. Esa experiencia cambió por completo mi trayectoria: me di cuenta de que me apasionaba más crear sitios web que el diseño gráfico.<br /><br />Desde entonces, me he centrado en aprender desarrollo web full-stack. He completado cursos en línea como <em>The Complete Full-Stack Web Development Bootcamp y 100 Days of Code: The Complete Python Pro Bootcamp</em>, ambos de la Dra. Angela Yu, y sigo creando proyectos para fortalecer mis habilidades.<br /><br />Ahora estoy enfocada en impulsar mi carrera en el desarrollo web, combinando mi experiencia en diseño con mi pasión por la programación para crear sitios web que sean tanto funcionales como visualmente atractivos.</p>"
 }

@@ -40,13 +40,7 @@ export type Skill = {
 	categories: string[];
 	color: string;
 	styles: string;
-	level:
-		| "Basic"
-		| "Intermediate"
-		| "Advanced"
-		| "Básico"
-		| "Intermedio"
-		| "Avanzado";
+	level: string;
 	tagline: string;
 };
 
@@ -55,4 +49,5 @@ export interface Dictionary {
 	hero: HeroSection;
 	skills: Skill[];
 	projects: ProjectsDict;
+	"more-section": string;
 }

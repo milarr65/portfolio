@@ -4,7 +4,7 @@
 			{ "id": "1", "label": "Skills", "href": "#skills" },
 			{ "id": "2", "label": "Projects", "href": "#projects" },
 			{ "id": "3", "label": "Contact", "href": "#contact" },
-			{ "id": "4", "label": "Resume", "href": "#resume" }
+			{ "id": "4", "label": "Resume", "href": "/english-cvv.pdf" }
 		]
 	},
 	"hero": {
@@ -45,21 +45,16 @@
 			"color": "color-[#E34F26]",
 			"styles": "hover:border-[#E34F26] hover:shadow-[0_0_13px_#E34F26]",
 			"level": "Advanced",
-			"levelES": "Avanzado",
-			"tagline": "Markup language for structuring web pages",
-			"taglineES": "Lenguaje de marcado utilizado en la creación de páginas web."
+			"tagline": "Markup language for structuring web pages"
 		},
 		{
 			"id": "css",
 			"label": "CSS",
 			"categories": ["frontend", "design"],
-			"categoriesES": ["frontend", "diseño"],
 			"color": "color-[#3178C6]",
 			"styles": "hover:border-[#3178C6] hover:shadow-[0_0_13px_#3178C6]",
 			"level": "Advanced",
-			"levelES": "Avanzado",
-			"tagline": "Stylesheet language for designing web pages",
-			"taglineES": "Hojas de estilo para definir el diseño visual de páginas web."
+			"tagline": "Stylesheet language for designing web pages"
 		},
 		{
 			"id": "javascript",
@@ -68,9 +63,7 @@
 			"color": "color-[#F7DF1E]",
 			"styles": "hover:border-[#F7DF1E] hover:shadow-[0_0_13px_#F7DF1E]",
 			"level": "Advanced",
-			"levelES": "Avanzado",
-			"tagline": "Programming language for interactivity and logic",
-			"taglineES": "Lenguaje de programación dinámico usado para la interactividad web."
+			"tagline": "Programming language for interactivity and logic"
 		},
 		{
 			"id": "typescript",
@@ -79,9 +72,7 @@
 			"color": "color-[#3178C6]",
 			"styles": "hover:border-[#3178C6] hover:shadow-[0_0_13px_#3178C6]",
 			"level": "Basic",
-			"levelES": "Básico",
-			"tagline": "Typed superset of JavaScript for safer coding",
-			"taglineES": "Superconjunto de JavaScript que añade tipos estáticos y objetos basados en clases"
+			"tagline": "Typed superset of JavaScript for safer coding"
 		},
 		{
 			"id": "react",
@@ -90,9 +81,7 @@
 			"color": "color-[#61DAFB]",
 			"styles": "hover:border-[#61DAFB] hover:shadow-[0_0_13px_#61DAFB]",
 			"level": "Advanced",
-			"levelES": "Avanzado",
-			"tagline": "Frontend framework for building UI components",
-			"taglineES": "Biblioteca Javascript para crear interfaces de usuario"
+			"tagline": "Frontend framework for building UI components"
 		},
 		{
 			"id": "nextjs",
@@ -101,9 +90,7 @@
 			"color": "color-slate-400",
 			"styles": "hover:border-slate-400 hover:shadow-[0_0_13px_var(--color-slate-400)]",
 			"level": "Basic",
-			"levelES": "Básico",
-			"tagline": "Fullstack React framework with SSR and API routes",
-			"taglineES": "Marco web de desarrollo frontend para aplicaciones basadas en React"
+			"tagline": "Fullstack React framework with SSR and API routes"
 		},
 		{
 			"id": "nodejs",
@@ -112,9 +99,7 @@
 			"color": "color-[#5FA04E]",
 			"styles": "hover:border-[#5FA04E] hover:shadow-[0_0_13px_#5FA04E]",
 			"level": "Intermediate",
-			"levelES": "Intermedio",
-			"tagline": "JavaScript runtime for server-side development",
-			"taglineES": "Entorno de ejecución para la capa del servidor, basado en JavaScript"
+			"tagline": "JavaScript runtime for server-side development"
 		},
 		{
 			"id": "express",
@@ -123,9 +108,7 @@
 			"color": "color-slate-400",
 			"styles": "hover:border-slate-400 hover:shadow-[0_0_13px_var(--color-slate-400)]",
 			"level": "Intermediate",
-			"levelES": "Intermedio",
-			"tagline": "Minimalist web framework for Node.js APIs",
-			"taglineES": "Marco web minimalista para APIs de Node.js"
+			"tagline": "Minimalist web framework for Node.js APIs"
 		},
 		{
 			"id": "python",
@@ -134,33 +117,25 @@
 			"color": "color-[#3776AB]",
 			"styles": "hover:border-[#3776AB] hover:shadow-[0_0_13px_#3776AB]",
 			"level": "Intermediate",
-			"levelES": "Intermedio",
-			"tagline": "Versatile programming language for backend and scripting",
-			"taglineES": "Lenguaje de programación versátil para backend, scripting y ciencia de datos"
+			"tagline": "Versatile programming language for backend and scripting"
 		},
 		{
 			"id": "psql",
 			"label": "PostgreSQL",
 			"categories": ["database"],
-			"categoriesES": ["base de datos"],
 			"color": "color-[#4169E1]",
 			"styles": "hover:border-[#4169E1] hover:shadow-[0_0_13px_#4169E1]",
 			"level": "Basic",
-			"levelES": "Básico",
-			"tagline": "Powerful open-source relational database",
-			"taglineES": "Una poderosa base de datos relacional de código abierto."
+			"tagline": "Powerful open-source relational database"
 		},
 		{
 			"id": "supabase",
 			"label": "Supabase",
 			"categories": ["database", "backend", "auth", "fullstack"],
-			"categoriesES": ["base de datos", "backend", "auth", "fullstack"],
 			"color": "color-[#3FCF8E]",
 			"styles": "hover:border-[#3FCF8E] hover:shadow-[0_0_13px_#3FCF8E]",
 			"level": "Basic",
-			"levelES": "Básico",
-			"tagline": "Open-source Firebase alternative powered by PostgreSQL",
-			"taglineES": "Alternativa a Firebase de código abierto basada en PostgreSQL"
+			"tagline": "Open-source Firebase alternative powered by PostgreSQL"
 		},
 		{
 			"id": "axios",
@@ -169,81 +144,61 @@
 			"color": "color-[#5A29E4]",
 			"styles": "hover:border-[#5A29E4] hover:shadow-[0_0_13px_#5A29E4]",
 			"level": "Intermediate",
-			"levelES": "Intermedio",
-			"tagline": "Promise-based HTTP client for APIs",
-			"taglineES": "Cliente HTTP basado en promesas para APIs"
+			"tagline": "Promise-based HTTP client for APIs"
 		},
 		{
 			"id": "tailwind",
 			"label": "Tailwind CSS",
 			"categories": ["frontend", "design"],
-			"categoriesES": ["frontend", "diseño"],
 			"color": "color-[#61DAFB]",
 			"styles": "hover:border-[#61DAFB] hover:shadow-[0_0_13px_#61DAFB]",
 			"level": "Intermediate",
-			"levelES": "Intermedio",
-			"tagline": "Design system & utility-first CSS framework",
-			"taglineES": "Sistema de diseño y framework CSS centrado en la utilidad"
+			"tagline": "Design system & utility-first CSS framework"
 		},
 		{
 			"id": "git",
 			"label": "Git",
 			"categories": ["devtools", "version-control"],
-			"categoriesES": ["devtools", "Control de versiones"],
 			"color": "color-[#F05032]",
 			"styles": "hover:border-[#F05032] hover:shadow-[0_0_13px_#F05032]",
 			"level": "Basic",
-			"levelES": "Básico",
-			"tagline": "Version control system for tracking code changes",
-			"taglineES": "Sistema de control de versiones para rastrear cambios de código"
+			"tagline": "Version control system for tracking code changes"
 		},
 		{
 			"id": "github",
 			"label": "GitHub",
 			"categories": ["devtools", "version-control", "collaboration"],
-			"categoriesES": ["devtools", "Control de versiones", "colaboración"],
 			"color": "color-slate-400",
 			"styles": "hover:border-slate-400 hover:shadow-[0_0_13px_slate-400]",
 			"level": "Basic",
-			"levelES": "Básico",
-			"tagline": "Platform for hosting and collaborating on Git repositories",
-			"taglineES": "Plataforma para mantener repositorios y colaborar en Git"
+			"tagline": "Platform for hosting and collaborating on Git repositories"
 		},
 		{
 			"id": "photoshop",
 			"label": "Photoshop",
 			"categories": ["design"],
-			"categoriesES": ["diseño"],
 			"color": "color-[#80B3FF]",
 			"styles": "hover:border-[#80B3FF] hover:shadow-[0_0_13px_#80B3FF]",
 			"level": "Advanced",
-			"levelES": "Avanzado",
-			"tagline": "Image editing and design tool",
-			"taglineES": "Herramienta para edición de imágenes y diseño"
+			"tagline": "Image editing and design tool"
 		},
 		{
 			"id": "illustrator",
 			"label": "Illustrator",
 			"categories": ["design"],
-			"categoriesES": ["diseño"],
 			"color": "color-[#F05032]",
 			"styles": "hover:border-[#F05032] hover:shadow-[0_0_13px_#F05032]",
 			"level": "Advanced",
-			"levelES": "Avanzado",
-			"tagline": "Vector graphics editor for logos and illustrations",
-			"taglineES": "Editor de gráficos vectoriales para logos e ilustraciones"
+			"tagline": "Vector graphics editor for logos and illustrations"
 		},
 		{
 			"id": "indesign",
 			"label": "InDesign",
 			"categories": ["design"],
-			"categoriesES": ["diseño"],
 			"color": "color-[#c4027d]",
 			"styles": "hover:border-[#c4027d] hover:shadow-[0_0_13px_#c4027d]",
 			"level": "Advanced",
-			"levelES": "Avanzado",
-			"tagline": "Layout design tool for print and digital publishing",
-			"taglineES": "Herramienta de diseño de maquetación para publicaciones impresas y digitales."
+			"tagline": "Layout design tool for print and digital publishing"
 		}
 	],
 	"projects": [
@@ -283,7 +238,7 @@
 			"description": "A python app to test your typing speed. With customization options like test duration and difficulty. It can be run as a native app or in the browser. Inspired by monkeytype.",
 			"tools": ["Python", "CSS", "NiceGui"],
 			"githubLink": "https://github.com/milarr65/Typing-Speed-Test",
-			"siteLink": "",
+			"siteLink": "https://typing-speed-test-vwkg.onrender.com",
 			"imgPath": "/projects/typing-speed-test.png",
 			"tagline": "A python app to test your typing speed."
 		},
@@ -327,5 +282,6 @@
 			"imgPath": "/projects/morsecode.png",
 			"tagline": "A script that can convert Morse code to text"
 		}
-	]
+	],
+	"more-section": "<p>Hi! I'm Mila, a 25-year-old self-taught web developer based in Mexico City. I'm bilingual (Spanish is my first language, and I've studied English since childhood). I also enjoy learning other languages, I can even read and write some Korean.<br /><br />Originally, I was studying graphic design in college after having earned an associate's degree in high school. But during my time there, I took a <em>Web Design</em> class where I discovered how much I enjoyed working with HTML and CSS. That experience completely shifted my path: I realized I was more passionate about building websites than han graphic design.<br /><br />Since then, I've been focused on learning full-stack web development. I've completed online courses like <em>The Complete Full-Stack Web Development Bootcamp</em> and <em>100 Days of Code: The Complete Python Pro Bootcamp</em> both by Dr. Angela Yu, and I continue to build projects to strengthen my skills.<br /><br />Now, I'm working toward a career in web development, combining my design background with my passion for coding to create websites that are both functional and visually engaging.</p>"
 }
