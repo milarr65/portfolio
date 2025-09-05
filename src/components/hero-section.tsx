@@ -3,7 +3,9 @@
 import { Badge } from "@/components/ui/badge";
 import { useLocale } from "@/contexts/locale-context";
 import Image from "next/image";
-import { MyLogo } from "@/assets/icons";
+import GithubIcon from "./GithubIcon";
+import { Linkedin, MyLogo } from "@/assets/icons";
+import { Button } from "./ui/button";
 
 export default function HeroSection() {
 	const { dict } = useLocale();
@@ -13,8 +15,8 @@ export default function HeroSection() {
 			id="hero"
 			className="w-full my-25 flex items-center justify-center h-98 relative"
 		>
-			<MyLogo className="absolute -bottom-10 -right-20 -z-2 fill-none stroke-2 stroke-current opacity-10 dark:opacity-5 h-11/12"/>
-			<MyLogo className="absolute -top-10 -left-20 -z-2 fill-none stroke-2 stroke-current opacity-10 dark:opacity-5 h-11/12"/>
+			<MyLogo className="absolute -bottom-10 -right-20 -z-2 fill-none stroke-2 stroke-current opacity-10 dark:opacity-5 sm:h-11/12 h-7/12" />
+			<MyLogo className="absolute -top-10 -left-20 -z-2 fill-none stroke-2 stroke-current opacity-10 dark:opacity-5 sm:h-11/12 h-7/12" />
 			<div className="w-9/10 flex flex-col justify-center items-center gap-9">
 				<div
 					id="hero-header"
@@ -44,18 +46,54 @@ export default function HeroSection() {
 						{dict.hero.badges.map((badge) => (
 							<Badge
 								key={badge.id}
-								variant="secondary"
-								className="px-4 py-2 text-sm font-medium"
+								variant="outline"
+								className="px-4 py-2 text-xs font-medium bg-background border-2"
 							>
 								<span>{badge.emoji}</span>
 								<p>{badge.value}</p>
 							</Badge>
 						))}
 					</div>
-					<div className="space-y-4">
-						<p className="max-w-[600px] text-lg text-muted-foreground md:text-xl text-justify sm:text-center">
-							{dict.hero.description}
-						</p>
+
+					<p className="max-w-[600px] text-lg text-muted-foreground md:text-xl text-justify sm:text-center">
+						{dict.hero.description}
+						<a href="#more-about" className="text-primary hover:underline">
+							{" "}
+							Read more
+						</a>
+					</p>
+
+					<div className="flex flex-row gap-3">
+						<Button
+							asChild
+							size="lg"
+							variant="secondary"
+							className="hover:bg-primary hover:text-primary-foreground"
+						>
+							<a
+								href="https://github.com/milarr65"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								<GithubIcon className="size-6 fill-current" />
+								Github
+							</a>
+						</Button>
+						<Button
+							asChild
+							size="lg"
+							variant="secondary"
+							className="hover:bg-primary hover:text-primary-foreground"
+						>
+							<a
+								href="https://www.linkedin.com/in/camila-arroyo-a7a460382/"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								<Linkedin className="fill-current" />
+								Linkedin
+							</a>
+						</Button>
 					</div>
 				</div>
 			</div>
