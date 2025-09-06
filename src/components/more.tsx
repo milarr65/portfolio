@@ -3,7 +3,7 @@ import { useLocale } from "@/contexts/locale-context";
 import Image from "next/image";
 
 export default function MoreAbout() {
-	const { dict } = useLocale();
+	const { lang, dict } = useLocale();
 	return (
 		<section
 			id="more-about"
@@ -18,7 +18,7 @@ export default function MoreAbout() {
 					className="rounded-2xl size-35 -hue-rotate-10"
 				/>
 				<h1 className="text-3xl font-bold tracking-tight md:text-4xl lg:text-5xl">
-					More about me
+					{lang === "en" ? "More about me" : "Sobre mi"}
 				</h1>
 			</div>
 			<div className="flex flex-col md:flex-row items-center justify-center w-9/10 gap-8 mb-6">
