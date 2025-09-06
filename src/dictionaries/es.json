@@ -207,8 +207,8 @@
 			"name": "Mi Portfolio",
 			"description": "Este espacio lo creé para mostrar quién soy y mi trabajo. Quise hacer un proyecto real con Next.js y TypeScript, ya que hasta ahora solo había usado estas herramientas con tutoriales. Me gustó mucho el resultado y la experiencia con Next.js.",
 			"tools": ["Nextjs", "Typescript", "Tailwind"],
-			"githubLink": "https://github.com/milarr65/my-portfolio",
-			"siteLink": "",
+			"githubLink": "https://github.com/milarr65/portfolio",
+			"siteLink": "https://portfolio-smoky-omega-abrlrtt3eu.vercel.app/",
 			"imgPath": "/projects/portfolio.png",
 			"tagline": "Mi propio espacio donde puedo mostrar mi trabajo"
 		},

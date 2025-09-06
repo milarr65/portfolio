@@ -2,6 +2,8 @@
 
 This site serves as my own webspace where I can showcase my work and skills — built with **Nextjs, TypeScript, Tailwind CSS and shadcn/ui**.
 
+🔗 **Live Demo:** [mila's portfolio](https://portfolio-smoky-omega-abrlrtt3eu.vercel.app/)
+
 ## 🚀 Features
 
 - Multilingual (English and Spanish)

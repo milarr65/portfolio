@@ -4,7 +4,7 @@
 			{ "id": "1", "label": "Skills", "href": "#skills" },
 			{ "id": "2", "label": "Projects", "href": "#projects" },
 			{ "id": "3", "label": "Contact", "href": "#contact" },
-			{ "id": "4", "label": "Resume", "href": "/english-cvv.pdf" }
+			{ "id": "4", "label": "Resume", "href": "/cvv-english.pdf" }
 		]
 	},
 	"hero": {
@@ -207,8 +207,8 @@
 			"name": "My Portfolio",
 			"description": "I created this webpage to showcase my work and skills. I wanted to try using Next.js and TypeScript for a real project, since I had only used these tools for tutorials. I really liked the result and the workflow with Next.js.",
 			"tools": ["Nextjs", "Typescript", "Tailwind"],
-			"githubLink": "https://github.com/milarr65/my-portfolio",
-			"siteLink": "",
+			"githubLink": "https://github.com/milarr65/portfolio",
+			"siteLink": "https://portfolio-smoky-omega-abrlrtt3eu.vercel.app/",
 			"imgPath": "/projects/portfolio.png",
 			"tagline": "My own webspace where I can showcase my work and skills"
 		},
