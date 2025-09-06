@@ -4,12 +4,12 @@
 			{ "id": "1", "label": "Habilidades", "href": "#skills" },
 			{ "id": "2", "label": "Proyectos", "href": "#projects" },
 			{ "id": "3", "label": "Contactame", "href": "#contact" },
-			{ "id": "4", "label": "Currículum", "href": "#resume" }
+			{ "id": "4", "label": "Currículum", "href": "/cvv-español.pdf" }
 		]
 	},
 	"hero": {
 		"tagline": "Desarrolladora Full-Stack",
-		"description": "Soy una desarrolladora web autodidacta, en constante evolución y construyendo proyectos para fortalecer mis habilidades. Siempre curiosa, disfruto explorando nuevas tecnologías y ampliando los servicios que puedo ofrecer.",
+		"description": "Soy una desarrolladora web autodidacta, en constante evolución y construyendo proyectos para fortalecer mis habilidades. Siempre curiosa, disfruto explorando nuevas tecnologías y desafíos.",
 		"badges": [
 			{
 				"id": "1",
@@ -209,7 +209,7 @@
 			"tools": ["Nextjs", "Typescript", "Tailwind"],
 			"githubLink": "https://github.com/milarr65/my-portfolio",
 			"siteLink": "",
-			"imgPath": "",
+			"imgPath": "/projects/portfolio.png",
 			"tagline": "Mi propio espacio donde puedo mostrar mi trabajo"
 		},
 		{
@@ -226,14 +226,7 @@
 			"id": "2",
 			"name": "Movie Finder",
 			"description": "Sitio web con detalles, imágenes y videos de películas y series populares. Obtuve toda la información con la API de TMDB. En esta ocasión no usé una librería de CSS, todos los estilos los creé yo.",
-			"tools": [
-				"Nodejs",
-				"Javascript",
-				"EJS",
-				"CSS",
-				"API",
-				"Axios"
-			],
+			"tools": ["Nodejs", "Javascript", "EJS", "CSS", "API", "Axios"],
 			"githubLink": "https://github.com/milarr65/Movie-Finder",
 			"siteLink": "https://movie-finder-gly4.onrender.com/",
 			"imgPath": "/projects/movie-finder.png",

@@ -40,13 +40,7 @@ const icons: Record<string, FC<SVGProps<SVGElement>>> = {
 	indesign: Icons.Indesign,
 };
 
-export default function SkillHoverIcon({
-	skill,
-	lang,
-}: {
-	skill: Skill;
-	lang: "en" | "es";
-}) {
+export default function SkillHoverIcon({ skill }: { skill: Skill }) {
 	const Icon = icons[skill.id];
 
 	if (!Icon) {

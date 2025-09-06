@@ -19,7 +19,6 @@ export default function LanguageSwitcher({
 			type="single"
 			variant="outline"
 			className={className}
-			size="sm"
 			value={value}
 			onValueChange={(value) => {
 				if (value === "en" || value === "es") {
@@ -31,16 +30,14 @@ export default function LanguageSwitcher({
 			<ToggleGroupItem
 				aria-label="Toggle English"
 				value="en"
-				size="sm"
-				className="text-sm"
+				className="text-lg"
 			>
 				{lang === "en" ? "English" : "Inglés"}
 			</ToggleGroupItem>
 			<ToggleGroupItem
 				aria-label="Toggle Spanish"
 				value="es"
-				size="sm"
-				className="text-sm"
+				className="text-lg"
 			>
 				{lang === "en" ? "Spanish" : "Español"}
 			</ToggleGroupItem>

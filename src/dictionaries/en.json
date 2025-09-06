@@ -9,7 +9,7 @@
 	},
 	"hero": {
 		"tagline": "Full-Stack Web Developer",
-		"description": "I’m a self-taught web developer, continuously learning and building projects to strengthen my skills. Always curious, I enjoy exploring new technologies and expanding the services I can offer.",
+		"description": "I'm a self-taught web developer, continuously learning and building projects to strengthen my skills. Always curious, I enjoy exploring new technologies and challenges.",
 		"badges": [
 			{
 				"id": "1",
@@ -209,7 +209,7 @@
 			"tools": ["Nextjs", "Typescript", "Tailwind"],
 			"githubLink": "https://github.com/milarr65/my-portfolio",
 			"siteLink": "",
-			"imgPath": "",
+			"imgPath": "/projects/portfolio.png",
 			"tagline": "My own webspace where I can showcase my work and skills"
 		},
 		{

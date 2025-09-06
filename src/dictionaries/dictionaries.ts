@@ -3,12 +3,12 @@ import { Dictionary } from "@/lib/types";
 
 const dictionaries = {
 	en: async (): Promise<Dictionary> => {
-		const module = await import("./en.json");
-		return module.default;
+		const dictModule = await import("./en.json");
+		return dictModule.default;
 	},
 	es: async (): Promise<Dictionary> => {
-		const module = await import("./es.json");
-		return module.default;
+		const dictModule = await import("./es.json");
+		return dictModule.default;
 	},
 } as const;
 

@@ -15,8 +15,8 @@ export default function HeroSection() {
 			id="hero"
 			className="w-full my-25 flex items-center justify-center h-98 relative"
 		>
-			<MyLogo className="absolute -bottom-10 -right-20 -z-2 fill-none stroke-2 stroke-current opacity-10 dark:opacity-5 sm:h-11/12 h-7/12" />
-			<MyLogo className="absolute -top-10 -left-20 -z-2 fill-none stroke-2 stroke-current opacity-10 dark:opacity-5 sm:h-11/12 h-7/12" />
+			<MyLogo className="absolute -bottom-10 -right-20 -z-2 fill-none stroke-2 stroke-primary dark:stroke-secondary opacity-10 dark:opacity-60 sm:h-11/12 h-7/12" />
+			<MyLogo className="absolute -top-10 -left-20 -z-2 fill-none stroke-2 stroke-primary dark:stroke-secondary opacity-10 dark:opacity-60 sm:h-11/12 h-7/12" />
 			<div className="w-9/10 flex flex-col justify-center items-center gap-9">
 				<div
 					id="hero-header"
@@ -47,7 +47,7 @@ export default function HeroSection() {
 							<Badge
 								key={badge.id}
 								variant="outline"
-								className="px-4 py-2 text-base bg-background border-2"
+								className="text-sm md:text-base bg-background border-2"
 							>
 								<span>{badge.emoji}</span>
 								<p>{badge.value}</p>
@@ -55,14 +55,14 @@ export default function HeroSection() {
 						))}
 					</div>
 
-					<p className="text-lg text-muted-foreground md:text-xl lg:text-2xl text-justify sm:text-center max-w-9/12">
+					<p className="text-lg text-muted-foreground md:text-xl lg:text-2xl text-justify sm:text-center sm:max-w-9/12">
 						{dict.hero.description}
 						<a
 							href="#more-about"
 							className="text-primary italic hover:underline"
 						>
 							{" "}
-							{lang === "en" ? "Read more" : "Saber más"}
+							{lang === "en" ? "Read more" : "Leer más"}
 						</a>
 					</p>
 
@@ -71,7 +71,7 @@ export default function HeroSection() {
 							asChild
 							size="lg"
 							variant="secondary"
-							className="hover:bg-primary hover:text-primary-foreground"
+							className="hover:bg-primary hover:text-primary-foreground text-lg"
 						>
 							<a
 								href="https://github.com/milarr65"
@@ -86,7 +86,7 @@ export default function HeroSection() {
 							asChild
 							size="lg"
 							variant="secondary"
-							className="hover:bg-primary hover:text-primary-foreground"
+							className="hover:bg-primary hover:text-primary-foreground text-lg"
 						>
 							<a
 								href="https://www.linkedin.com/in/camila-arroyo-a7a460382/"

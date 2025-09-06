@@ -21,15 +21,15 @@ export function ThemeToggle({ className }: { className?: string }) {
 			}}
 		>
 			<ToggleGroupItem value="dark" aria-label="Dark Theme">
-				<Moon />
+				<Moon className="size-5"/>
 			</ToggleGroupItem>
 
 			<ToggleGroupItem value="system" aria-label="System Auto theme">
-				<Monitor />
+				<Monitor className="size-5"/>
 			</ToggleGroupItem>
 
 			<ToggleGroupItem value="light" aria-label="Light Theme">
-				<Sun />
+				<Sun className="size-5"/>
 			</ToggleGroupItem>
 		</ToggleGroup>
 	);

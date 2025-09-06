@@ -23,7 +23,7 @@ export default function MoreAbout() {
 			</div>
 			<div className="flex flex-col md:flex-row items-center justify-center w-9/10 gap-8 mb-6">
 				<div
-					className="prose prose-base text-muted-foreground text-justify text-lg"
+					className="text-muted-foreground text-justify text-lg lg:text-xl w-11/12 sm:w-8/12"
 					dangerouslySetInnerHTML={{ __html: dict["more-section"] }}
 				></div>
 			</div>
