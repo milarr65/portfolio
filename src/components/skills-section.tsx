@@ -23,7 +23,7 @@ export default function SkillsSection() {
 			<div className="flex flex-wrap gap-5 w-full mx-auto justify-center my-3 ">
 				<div className="w-9/10 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-9 place-items-center h-fit">
 					{dict.skills.map((skill) => (
-						<SkillHoverIcon key={skill.id} skill={skill} lang={lang} />
+						<SkillHoverIcon key={skill.id} skill={skill} />
 					))}
 				</div>
 			</div>
