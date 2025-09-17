@@ -84,7 +84,11 @@ export default function SecondProjectsSection() {
 									asChild
 									className={!project.siteLink ? "hidden" : ""}
 								>
-									<a href={project.siteLink}>
+									<a
+										href={project.siteLink}
+										target="_blank"
+										rel="noopener noreferrer"
+									>
 										<ExternalLink />
 										{lang === "en" ? "Live Site" : "Sitio Web"}
 									</a>

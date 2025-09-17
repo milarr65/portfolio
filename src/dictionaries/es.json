@@ -208,7 +208,7 @@
 			"description": "Este espacio lo creé para mostrar quién soy y mi trabajo. Quise hacer un proyecto real con Next.js y TypeScript, ya que hasta ahora solo había usado estas herramientas con tutoriales. Me gustó mucho el resultado y la experiencia con Next.js.",
 			"tools": ["Nextjs", "Typescript", "Tailwind"],
 			"githubLink": "https://github.com/milarr65/portfolio",
-			"siteLink": "https://portfolio-smoky-omega-abrlrtt3eu.vercel.app/",
+			"siteLink": "",
 			"imgPath": "/projects/portfolio.png",
 			"tagline": "Mi propio espacio donde puedo mostrar mi trabajo"
 		},
@@ -235,7 +235,7 @@
 		{
 			"id": "3",
 			"name": "Typing Speed Test",
-			"description": "App que mide tu rapidez al escribir ne teclado. Cuenta con ajustes como duración del test y nivel de dificultad. Hecha con Python, inspirada en monkeytype.",
+			"description": "App que mide tu rapidez al escribir con teclado. Cuenta con ajustes como duración del test y nivel de dificultad. Hecha con Python, inspirada en monkeytype.",
 			"tools": ["Python", "CSS", "NiceGui"],
 			"githubLink": "https://github.com/milarr65/Typing-Speed-Test",
 			"siteLink": "https://typing-speed-test-vwkg.onrender.com",

@@ -2,8 +2,10 @@
 import { ArrowUp } from "lucide-react";
 import { Button } from "./ui/button";
 import { Tooltip, TooltipTrigger, TooltipContent } from "./ui/tooltip";
+import { useLocale } from "@/contexts/locale-context";
 
 export default function ScrollToTopBtn() {
+	const {lang} = useLocale()
 	return (
 		<Tooltip delayDuration={300}>
 			<TooltipTrigger asChild>
@@ -25,7 +27,7 @@ export default function ScrollToTopBtn() {
 				side="left"
 				sideOffset={5}
 			>
-				<p>Back to top</p>
+				<p>{lang === "en" ? "Back to top" : "Subir"}</p>
 			</TooltipContent>
 		</Tooltip>
 	);

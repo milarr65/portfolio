@@ -225,7 +225,7 @@
 		{
 			"id": "2",
 			"name": "Movie Finder",
-			"description": "Film and TV hub where you can get relevant details, pictures and videos about any media. I got all the information from TMDB's API. For this project I decided to not use any css library and instead do all the styles myself.",
+			"description": "Film and TV hub where you can get relevant details, pictures, and videos about any media. I got all the information from TMDB's API. This time around I chose to create all the styles myself instead of relying on a CSS library.",
 			"tools": ["Nodejs", "Express", "Javascript", "EJS", "CSS", "API"],
 			"githubLink": "https://github.com/milarr65/Movie-Finder",
 			"siteLink": "https://movie-finder-gly4.onrender.com/",

@@ -11,7 +11,7 @@ export default async function Home() {
 	return (
 		<div className="font-sans flex flex-col justify-center min-h-screen overflow-x-hidden">
 			<Navbar />
-			<main className="w-full flex flex-1 flex-col gap-30 items-center sm:items-start justify-center my-5">
+			<main className="w-full flex flex-1 flex-col gap-30 items-center sm:items-start justify-center my-23 sm:my-7">
 				<HeroSection />
 				<SkillsSection />
 				<SecondProjectsSection />
