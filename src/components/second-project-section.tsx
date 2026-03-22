@@ -30,13 +30,13 @@ export default function SecondProjectsSection() {
 			<p className="text-xl text-muted-foreground max-w-2xl mx-auto text-center w-9/10">
 				{lang === "en"
 					? "Explore some of my recent work. Click on any of the cards to show more details."
-					: "Explora algunos de mis trabajos recientes. Haz click en cualquier tarjeta para mostrar más detalles."}
+          : "Explora algunos de mis trabajos recientes. Haz click en las tarjetas para mostrar más detalles."}
 			</p>
 			<div className="w-11/12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 min-h-[300px]">
 				{dict.projects.map((project) => (
 					<Dialog key={project.id}>
 						<ProjectCard project={project} />
-						<DialogContent className="flex flex-col gap-7">
+            <DialogContent className="flex flex-col gap-7 max-h-[95vh] overflow-y-auto">
 							<DialogHeader>
 								<div className="relative aspect-4/2 mb-4 rounded-(--radius) bg-muted">
 									{project.imgPath && (
@@ -73,7 +73,11 @@ export default function SecondProjectsSection() {
 									</Button>
 								</DialogClose>
 								<Button variant="secondary" size="default" asChild>
-									<a href={project.githubLink}>
+                  <a
+                    href={project.githubLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
 										<GithubIcon className="size-5 fill-current" />
 										{lang === "en" ? "Source Code" : "Código"}
 									</a>

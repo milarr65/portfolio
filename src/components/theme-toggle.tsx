@@ -13,6 +13,7 @@ export function ThemeToggle({ className }: { className?: string }) {
 		<ToggleGroup
 			type="single"
 			variant="outline"
+			size='sm'
 			className={className}
 			value={value}
 			onValueChange={(val) => {
@@ -21,15 +22,15 @@ export function ThemeToggle({ className }: { className?: string }) {
 			}}
 		>
 			<ToggleGroupItem value="dark" aria-label="Dark Theme">
-				<Moon className="size-5"/>
+				<Moon />
 			</ToggleGroupItem>
 
 			<ToggleGroupItem value="system" aria-label="System Auto theme">
-				<Monitor className="size-5"/>
+				<Monitor />
 			</ToggleGroupItem>
 
 			<ToggleGroupItem value="light" aria-label="Light Theme">
-				<Sun className="size-5"/>
+				<Sun />
 			</ToggleGroupItem>
 		</ToggleGroup>
 	);

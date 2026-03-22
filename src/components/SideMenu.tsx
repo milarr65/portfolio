@@ -48,7 +48,7 @@ export default function SideMenu() {
 						</p>
 
 						{dict.navbar.links.map((link) => (
-							<Button key={link.id} asChild variant="link" className="text-lg">
+							<Button key={link.id} asChild variant="link" >
 								<a href={link.href}>{link.label}</a>
 							</Button>
 						))}
