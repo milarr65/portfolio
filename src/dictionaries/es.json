@@ -72,6 +72,15 @@
 		}
 	],
 	"skills": [
+				{
+			"id": "prisma",
+			"label": "Prisma",
+			"categories": ["backend", "database"],
+			"color": "color-[#4db6ac]",
+			"styles": "hover:border-[#4db6ac] hover:shadow-[0_0_13px_#4db6ac]",
+			"level": "Avanzado",
+			"tagline": "ORM para Node.js y TypeScript"
+		},
 		{
 			"id": "html",
 			"label": "HTML",
@@ -105,7 +114,7 @@
 			"categories": ["frontend", "backend"],
 			"color": "color-[#3178C6]",
 			"styles": "hover:border-[#3178C6] hover:shadow-[0_0_13px_#3178C6]",
-			"level": "Básico",
+			"level": "Avanzado",
 			"tagline": "Superconjunto de JavaScript que añade tipos estáticos y objetos basados en clases"
 		},
 		{
@@ -123,7 +132,7 @@
 			"categories": ["frontend", "backend", "fullstack"],
 			"color": "color-slate-400",
 			"styles": "hover:border-slate-400 hover:shadow-[0_0_13px_var(--color-slate-400)]",
-			"level": "Básico",
+			"level": "Avanzado",
 			"tagline": "Marco web de desarrollo frontend para aplicaciones basadas en React"
 		},
 		{
@@ -159,7 +168,7 @@
 			"categories": ["base de datos"],
 			"color": "color-[#4169E1]",
 			"styles": "hover:border-[#4169E1] hover:shadow-[0_0_13px_#4169E1]",
-			"level": "Básico",
+			"level": "Intermedio",
 			"tagline": "Una poderosa base de datos relacional de código abierto."
 		},
 		{
@@ -168,7 +177,7 @@
 			"categories": ["base de datos", "backend", "auth", "fullstack"],
 			"color": "color-[#3FCF8E]",
 			"styles": "hover:border-[#3FCF8E] hover:shadow-[0_0_13px_#3FCF8E]",
-			"level": "Básico",
+			"level": "Intermedio",
 			"tagline": "Alternativa a Firebase de código abierto basada en PostgreSQL"
 		},
 		{
@@ -186,7 +195,7 @@
 			"categories": ["frontend", "diseño"],
 			"color": "color-[#61DAFB]",
 			"styles": "hover:border-[#61DAFB] hover:shadow-[0_0_13px_#61DAFB]",
-			"level": "Intermedio",
+			"level": "Avanzado",
 			"tagline": "Sistema de diseño y framework CSS centrado en la utilidad"
 		},
 		{
@@ -195,7 +204,7 @@
 			"categories": ["devtools", "control de versiones"],
 			"color": "color-[#F05032]",
 			"styles": "hover:border-[#F05032] hover:shadow-[0_0_13px_#F05032]",
-			"level": "Básico",
+			"level": "Avanzado",
 			"tagline": "Sistema de control de versiones para rastrear cambios de código"
 		},
 		{

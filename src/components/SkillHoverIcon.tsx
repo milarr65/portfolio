@@ -38,6 +38,7 @@ const icons: Record<string, FC<SVGProps<SVGElement>>> = {
 	photoshop: Icons.Photoshop,
 	illustrator: Icons.Illustrator,
 	indesign: Icons.Indesign,
+	prisma: Icons.Prisma,
 };
 
 export default function SkillHoverIcon({ skill }: { skill: Skill }) {
@@ -48,8 +49,7 @@ export default function SkillHoverIcon({ skill }: { skill: Skill }) {
 		return null;
 	}
 	return (
-		<>
-			<HoverCard openDelay={500}>
+		<HoverCard openDelay={100}>
 				{/* Gray Icon -- on hover it shows color and scales up  */}
 				<HoverCardTrigger asChild>
 					<button
@@ -65,7 +65,7 @@ export default function SkillHoverIcon({ skill }: { skill: Skill }) {
 					</button>
 				</HoverCardTrigger>
 				{/* Card Content */}
-				<HoverCardContent side="top" className="flex flex-col gap-5 w-86">
+				<HoverCardContent side="top" avoidCollisions className="flex flex-col gap-5 w-86">
 					{/* Skill icon and name */}
 					<div
 						id="card-header"
@@ -103,9 +103,5 @@ export default function SkillHoverIcon({ skill }: { skill: Skill }) {
 					</div>
 				</HoverCardContent>
 			</HoverCard>
-
-			{/* Hidden icon square to fake a checker board grid */}
-			<div className="aspect-square size-24 rounded-xl p-3.5 border-transparent border-2 bg-transparent my-7 hidden sm:flex"></div>
-		</>
 	);
 }

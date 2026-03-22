@@ -21,10 +21,25 @@ export default function SkillsSection() {
 					: "Pasa el cursor sobre los iconos para ver más sobre cada tecnología."}
 			</p>
 			<div className="flex flex-wrap gap-5 w-full mx-auto justify-center my-3 ">
-				<div className="w-9/10 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-9 place-items-center h-fit">
-					{dict.skills.map((skill) => (
-						<SkillHoverIcon key={skill.id} skill={skill} />
-					))}
+				<div className="w-11/12 grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 place-items-center h-fit gap-y-4">
+					{dict.skills.map((skill, index) => {
+						const isSmOffset = index % 3 === 2;
+						const isMdOffset = index % 5 === 3;
+						const isLgOffset = index % 7 === 4;
+
+						return (
+							<div
+								key={skill.id}
+								className={`col-span-1 sm:col-span-2 flex justify-center w-full transition-all duration-300
+									${isSmOffset ? "sm:col-start-2" : "sm:col-start-auto"}
+									${isMdOffset ? "md:col-start-2" : "md:col-start-auto"}
+									${isLgOffset ? "lg:col-start-2" : "lg:col-start-auto"}
+								`}
+							>
+								<SkillHoverIcon skill={skill} />
+							</div>
+						);
+					})}
 				</div>
 			</div>
 		</section>

@@ -74,6 +74,15 @@
 	],
 	"skills": [
 		{
+			"id": "prisma",
+			"label": "Prisma",
+			"categories": ["backend", "database"],
+			"color": "color-[#4db6ac]",
+			"styles": "hover:border-[#4db6ac] hover:shadow-[0_0_13px_#4db6ac]",
+			"level": "Advanced",
+			"tagline": "ORM for Node.js and TypeScript"
+		},
+		{
 			"id": "html",
 			"label": "HTML",
 			"categories": ["frontend"],
@@ -106,7 +115,7 @@
 			"categories": ["frontend", "backend"],
 			"color": "color-[#3178C6]",
 			"styles": "hover:border-[#3178C6] hover:shadow-[0_0_13px_#3178C6]",
-			"level": "Basic",
+			"level": "Advanced",
 			"tagline": "Typed superset of JavaScript for safer coding"
 		},
 		{
@@ -124,7 +133,7 @@
 			"categories": ["frontend", "backend", "fullstack"],
 			"color": "color-slate-400",
 			"styles": "hover:border-slate-400 hover:shadow-[0_0_13px_var(--color-slate-400)]",
-			"level": "Basic",
+			"level": "Advanced",
 			"tagline": "Fullstack React framework with SSR and API routes"
 		},
 		{
@@ -160,7 +169,7 @@
 			"categories": ["database"],
 			"color": "color-[#4169E1]",
 			"styles": "hover:border-[#4169E1] hover:shadow-[0_0_13px_#4169E1]",
-			"level": "Basic",
+			"level": "Advanced",
 			"tagline": "Powerful open-source relational database"
 		},
 		{
@@ -169,7 +178,7 @@
 			"categories": ["database", "backend", "auth", "fullstack"],
 			"color": "color-[#3FCF8E]",
 			"styles": "hover:border-[#3FCF8E] hover:shadow-[0_0_13px_#3FCF8E]",
-			"level": "Basic",
+			"level": "Intermediate",
 			"tagline": "Open-source Firebase alternative powered by PostgreSQL"
 		},
 		{
@@ -187,7 +196,7 @@
 			"categories": ["frontend", "design"],
 			"color": "color-[#61DAFB]",
 			"styles": "hover:border-[#61DAFB] hover:shadow-[0_0_13px_#61DAFB]",
-			"level": "Intermediate",
+			"level": "Advanced",
 			"tagline": "Design system & utility-first CSS framework"
 		},
 		{
@@ -196,7 +205,7 @@
 			"categories": ["devtools", "version-control"],
 			"color": "color-[#F05032]",
 			"styles": "hover:border-[#F05032] hover:shadow-[0_0_13px_#F05032]",
-			"level": "Basic",
+			"level": "Advanced",
 			"tagline": "Version control system for tracking code changes"
 		},
 		{
