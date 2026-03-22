@@ -1,6 +1,7 @@
 {
 	"navbar": {
 		"links": [
+			{ "id": "0", "label": "Experiencia", "href": "#experience" },
 			{ "id": "1", "label": "Habilidades", "href": "#skills" },
 			{ "id": "2", "label": "Proyectos", "href": "#projects" },
 			{ "id": "3", "label": "Contactame", "href": "#contact" },
@@ -37,6 +38,39 @@
 			}
 		]
 	},
+	"experience": [
+		{
+			"id": "1",
+			"role": "Desarrolladora Full-Stack",
+			"company": "Risetech",
+			"period": "Ene 2026 – Presente",
+			"location": "Remoto",
+			"environment": "Entorno de trabajo en inglés",
+			"methodology": "Metodología Ágil / Scrum",
+			"responsibilities": [
+				"Continuación del desarrollo full-stack de una PWA SaaS multi-tenant para la gestión de personal en obras de construcción en México, desarrollada con Next.js, TypeScript y Tailwind CSS.",
+				"Colaboración en flujos de registro vía código QR y captura de documentos por OCR para automatizar el alta de trabajadores.",
+				"Mantenimiento del control de acceso basado en roles (RBAC) y el aislamiento de datos multi-tenant para los perfiles de Administrador y Checador.",
+				"Integración de servicios de Microsoft Azure: App Service, SQL Database, Blob Storage y Azure AD para autenticación.",
+				"Participación en sprints Agile / Scrum: planeación, stand-ups diarios y retrospectivas."
+			]
+		},
+		{
+			"id": "2",
+			"role": "Practicante de Desarrollo Web",
+			"company": "Risetech",
+			"period": "Oct 2025 – Ene 2026",
+			"location": "Remoto",
+			"environment": "Next.js, TypeScript, Tailwind CSS, Microsoft Azure",
+			"methodology": "",
+			"responsibilities": [
+				"Desarrollo desde cero de una PWA en Next.js (TypeScript + Tailwind CSS) para un cliente del sector construcción en México.",
+				"Diseño e implementación de autenticación de usuarios y control de acceso basado en roles para distintos tipos de usuario.",
+				"Colaboración en la integración de escaneo de códigos QR y captura de documentos por OCR para automatizar el registro de trabajadores.",
+				"Configuración de servicios de Microsoft Azure: App Service, SQL Database, Blob Storage y Azure AD."
+			]
+		}
+	],
 	"skills": [
 		{
 			"id": "html",

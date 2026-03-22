@@ -1,6 +1,7 @@
 {
 	"navbar": {
 		"links": [
+			{ "id": "0", "label": "Experience", "href": "#experience" },
 			{ "id": "1", "label": "Skills", "href": "#skills" },
 			{ "id": "2", "label": "Projects", "href": "#projects" },
 			{ "id": "3", "label": "Contact", "href": "#contact" },
@@ -37,6 +38,40 @@
 			}
 		]
 	},
+	"experience": [
+		{
+			"id": "1",
+			"role": "Full-Stack Developer",
+			"company": "Risetech",
+			"period": "Jan 2026 – Present",
+			"location": "Remote",
+			"environment": "English-language environment",
+			"methodology": "Agile / Scrum",
+			"responsibilities": [
+				"Continue leading full-stack development of a multi-tenant SaaS PWA for construction workforce management in Mexico, built with Next.js, TypeScript, and Tailwind CSS.",
+				"Collaborate on QR-based check-in flows and OCR document scanning for worker onboarding, reducing manual data entry.",
+				"Maintain role-based access control (RBAC) and multi-tenant data isolation across Administrador and Checador user roles.",
+				"Integrate Microsoft Azure services: App Service, PSQL Database, Blob Storage, and Azure AD for authentication.",
+				"Collaborate in Agile / Scrum sprints, participate in sprint planning, daily stand-ups, and retrospectives."
+			]
+		},
+		{
+			"id": "2",
+			"role": "Web Development Intern",
+			"company": "Risetech",
+			"period": "Oct 2025 – Jan 2026",
+			"location": "Remote",
+			"environment": "Next.js, TypeScript, Tailwind CSS, Microsoft Azure",
+			"methodology": "",
+			"responsibilities": [
+				"Built Ingressa from scratch: a Next.js (TypeScript + Tailwind CSS) PWA for a client in the Mexican construction industry.",
+				"Designed and implemented user authentication and role-based access control for multiple user types.",
+				"Collaborated on QR code scanning and OCR-based document capture features to automate worker registration workflows.",
+				"Integrate Microsoft Azure services: App Service, PSQL Database, Blob Storage, and Azure AD for authentication.",
+				"Collaborate in Agile / Scrum sprints, participate in sprint planning, daily stand-ups, and retrospectives."
+			]
+		}
+	],
 	"skills": [
 		{
 			"id": "html",

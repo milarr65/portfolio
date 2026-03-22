@@ -44,10 +44,25 @@ export type Skill = {
 	tagline: string;
 };
 
+export interface Experience {
+	id: string;
+	role: string;
+	company: string;
+	period: string;
+	location: string;
+	environment: string;
+	methodology: string;
+	responsibilities: string[];
+}
+
+
 export interface Dictionary {
 	navbar: NavbarDict;
 	hero: HeroSection;
+	experience: Experience[];
 	skills: Skill[];
 	projects: ProjectsDict;
 	"more-section": string;
 }
+
+export type Locale = "en" | "es"
