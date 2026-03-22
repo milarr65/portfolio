@@ -14,19 +14,19 @@ export default async function Home({
   params: Promise<{ lang: "en" | "es" }>;
 }) {
   const { lang } = await params;
-	return (
-		<div className="font-sans flex flex-col justify-center min-h-screen overflow-x-hidden">
-			<Navbar />
-			<main className="w-full flex flex-1 flex-col gap-30 items-center sm:items-start justify-center my-23 sm:my-7">
-				<HeroSection />
+  return (
+    <div className="font-sans flex flex-col justify-center min-h-screen overflow-x-hidden">
+      <Navbar />
+      <main className="w-full flex flex-1 flex-col gap-30 items-center sm:items-start justify-center my-23 sm:my-7">
+        <HeroSection />
         <ExperienceSection />
-				<SkillsSection />
-				<SecondProjectsSection />
-				<ContactSection />
-				<MoreAbout />
-				<ScrollToTopBtn />
-			</main>
-			<Footer />
-		</div>
-	);
+        <SkillsSection />
+        <SecondProjectsSection />
+        <ContactSection />
+        <MoreAbout />
+        <ScrollToTopBtn />
+      </main>
+      <Footer />
+    </div>
+  );
 }

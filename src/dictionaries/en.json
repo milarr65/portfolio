@@ -1,331 +1,331 @@
 {
-	"navbar": {
-		"links": [
-			{ "id": "0", "label": "Experience", "href": "#experience" },
-			{ "id": "1", "label": "Skills", "href": "#skills" },
-			{ "id": "2", "label": "Projects", "href": "#projects" },
-			{ "id": "3", "label": "Contact", "href": "#contact" },
-			{ "id": "4", "label": "Resume", "href": "/camila_arroyo_resume_2026.pdf" }
-		]
-	},
-	"hero": {
-		"tagline": "Full-Stack Web Developer",
-		"description": "I'm a self-taught web developer, continuously learning and building projects to strengthen my skills. Always curious, I enjoy exploring new technologies and challenges.",
-		"badges": [
-			{
-				"id": "1",
-				"name": "age",
-				"value": "25 years old",
-				"emoji": "📆"
-			},
-			{
-				"id": "2",
-				"name": "studies",
-				"value": "Graphic design",
-				"emoji": "🖌️"
-			},
-			{
-				"id": "3",
-				"name": "career",
-				"value": "Web development",
-				"emoji": "💻"
-			},
-			{
-				"id": "4",
-				"name": "location",
-				"value": "Mexico City",
-				"emoji": "🇲🇽"
-			}
-		]
-	},
-	"experience": [
-		{
-			"id": "1",
-			"role": "Full-Stack Developer",
-			"company": "Risetech",
-			"period": "Jan 2026 – Present",
-			"location": "Remote",
-			"environment": "English-language environment",
-			"methodology": "Agile / Scrum",
-			"responsibilities": [
-				"Continue leading full-stack development of a multi-tenant SaaS PWA for construction workforce management in Mexico, built with Next.js, TypeScript, and Tailwind CSS.",
-				"Collaborate on QR-based check-in flows and OCR document scanning for worker onboarding, reducing manual data entry.",
-				"Maintain role-based access control (RBAC) and multi-tenant data isolation across Administrador and Checador user roles.",
-				"Integrate Microsoft Azure services: App Service, PSQL Database, Blob Storage, and Azure AD for authentication.",
-				"Collaborate in Agile / Scrum sprints, participate in sprint planning, daily stand-ups, and retrospectives."
-			]
-		},
-		{
-			"id": "2",
-			"role": "Web Development Intern",
-			"company": "Risetech",
-			"period": "Oct 2025 – Jan 2026",
-			"location": "Remote",
-			"environment": "Next.js, TypeScript, Tailwind CSS, Microsoft Azure",
-			"methodology": "",
-			"responsibilities": [
-				"Built Ingressa from scratch: a Next.js (TypeScript + Tailwind CSS) PWA for a client in the Mexican construction industry.",
-				"Designed and implemented user authentication and role-based access control for multiple user types.",
-				"Collaborated on QR code scanning and OCR-based document capture features to automate worker registration workflows.",
-				"Integrate Microsoft Azure services: App Service, PSQL Database, Blob Storage, and Azure AD for authentication.",
-				"Collaborate in Agile / Scrum sprints, participate in sprint planning, daily stand-ups, and retrospectives."
-			]
-		}
-	],
-	"skills": [
-		{
-			"id": "prisma",
-			"label": "Prisma",
-			"categories": ["backend", "database"],
-			"color": "color-[#4db6ac]",
-			"styles": "hover:border-[#4db6ac] hover:shadow-[0_0_13px_#4db6ac]",
-			"level": "Advanced",
-			"tagline": "ORM for Node.js and TypeScript"
-		},
-		{
-			"id": "html",
-			"label": "HTML",
-			"categories": ["frontend"],
-			"color": "color-[#E34F26]",
-			"styles": "hover:border-[#E34F26] hover:shadow-[0_0_13px_#E34F26]",
-			"level": "Advanced",
-			"tagline": "Markup language for structuring web pages"
-		},
-		{
-			"id": "css",
-			"label": "CSS",
-			"categories": ["frontend", "design"],
-			"color": "color-[#3178C6]",
-			"styles": "hover:border-[#3178C6] hover:shadow-[0_0_13px_#3178C6]",
-			"level": "Advanced",
-			"tagline": "Stylesheet language for designing web pages"
-		},
-		{
-			"id": "javascript",
-			"label": "JavaScript",
-			"categories": ["frontend", "backend"],
-			"color": "color-[#F7DF1E]",
-			"styles": "hover:border-[#F7DF1E] hover:shadow-[0_0_13px_#F7DF1E]",
-			"level": "Advanced",
-			"tagline": "Programming language for interactivity and logic"
-		},
-		{
-			"id": "typescript",
-			"label": "TypeScript",
-			"categories": ["frontend", "backend"],
-			"color": "color-[#3178C6]",
-			"styles": "hover:border-[#3178C6] hover:shadow-[0_0_13px_#3178C6]",
-			"level": "Advanced",
-			"tagline": "Typed superset of JavaScript for safer coding"
-		},
-		{
-			"id": "react",
-			"label": "React",
-			"categories": ["frontend"],
-			"color": "color-[#61DAFB]",
-			"styles": "hover:border-[#61DAFB] hover:shadow-[0_0_13px_#61DAFB]",
-			"level": "Advanced",
-			"tagline": "Frontend framework for building UI components"
-		},
-		{
-			"id": "nextjs",
-			"label": "Next.js",
-			"categories": ["frontend", "backend", "fullstack"],
-			"color": "color-slate-400",
-			"styles": "hover:border-slate-400 hover:shadow-[0_0_13px_var(--color-slate-400)]",
-			"level": "Advanced",
-			"tagline": "Fullstack React framework with SSR and API routes"
-		},
-		{
-			"id": "nodejs",
-			"label": "Node.js",
-			"categories": ["backend"],
-			"color": "color-[#5FA04E]",
-			"styles": "hover:border-[#5FA04E] hover:shadow-[0_0_13px_#5FA04E]",
-			"level": "Intermediate",
-			"tagline": "JavaScript runtime for server-side development"
-		},
-		{
-			"id": "express",
-			"label": "Express",
-			"categories": ["backend", "api"],
-			"color": "color-slate-400",
-			"styles": "hover:border-slate-400 hover:shadow-[0_0_13px_var(--color-slate-400)]",
-			"level": "Intermediate",
-			"tagline": "Minimalist web framework for Node.js APIs"
-		},
-		{
-			"id": "python",
-			"label": "Python",
-			"categories": ["backend", "scripting"],
-			"color": "color-[#3776AB]",
-			"styles": "hover:border-[#3776AB] hover:shadow-[0_0_13px_#3776AB]",
-			"level": "Intermediate",
-			"tagline": "Versatile programming language for backend and scripting"
-		},
-		{
-			"id": "psql",
-			"label": "PostgreSQL",
-			"categories": ["database"],
-			"color": "color-[#4169E1]",
-			"styles": "hover:border-[#4169E1] hover:shadow-[0_0_13px_#4169E1]",
-			"level": "Advanced",
-			"tagline": "Powerful open-source relational database"
-		},
-		{
-			"id": "supabase",
-			"label": "Supabase",
-			"categories": ["database", "backend", "auth", "fullstack"],
-			"color": "color-[#3FCF8E]",
-			"styles": "hover:border-[#3FCF8E] hover:shadow-[0_0_13px_#3FCF8E]",
-			"level": "Intermediate",
-			"tagline": "Open-source Firebase alternative powered by PostgreSQL"
-		},
-		{
-			"id": "axios",
-			"label": "Axios",
-			"categories": ["frontend", "backend", "api"],
-			"color": "color-[#5A29E4]",
-			"styles": "hover:border-[#5A29E4] hover:shadow-[0_0_13px_#5A29E4]",
-			"level": "Intermediate",
-			"tagline": "Promise-based HTTP client for APIs"
-		},
-		{
-			"id": "tailwind",
-			"label": "Tailwind CSS",
-			"categories": ["frontend", "design"],
-			"color": "color-[#61DAFB]",
-			"styles": "hover:border-[#61DAFB] hover:shadow-[0_0_13px_#61DAFB]",
-			"level": "Advanced",
-			"tagline": "Design system & utility-first CSS framework"
-		},
-		{
-			"id": "git",
-			"label": "Git",
-			"categories": ["devtools", "version-control"],
-			"color": "color-[#F05032]",
-			"styles": "hover:border-[#F05032] hover:shadow-[0_0_13px_#F05032]",
-			"level": "Advanced",
-			"tagline": "Version control system for tracking code changes"
-		},
-		{
-			"id": "github",
-			"label": "GitHub",
-			"categories": ["devtools", "version-control", "collaboration"],
-			"color": "color-slate-400",
-			"styles": "hover:border-slate-400 hover:shadow-[0_0_13px_slate-400]",
-			"level": "Basic",
-			"tagline": "Platform for hosting and collaborating on Git repositories"
-		},
-		{
-			"id": "photoshop",
-			"label": "Photoshop",
-			"categories": ["design"],
-			"color": "color-[#80B3FF]",
-			"styles": "hover:border-[#80B3FF] hover:shadow-[0_0_13px_#80B3FF]",
-			"level": "Advanced",
-			"tagline": "Image editing and design tool"
-		},
-		{
-			"id": "illustrator",
-			"label": "Illustrator",
-			"categories": ["design"],
-			"color": "color-[#F05032]",
-			"styles": "hover:border-[#F05032] hover:shadow-[0_0_13px_#F05032]",
-			"level": "Advanced",
-			"tagline": "Vector graphics editor for logos and illustrations"
-		},
-		{
-			"id": "indesign",
-			"label": "InDesign",
-			"categories": ["design"],
-			"color": "color-[#c4027d]",
-			"styles": "hover:border-[#c4027d] hover:shadow-[0_0_13px_#c4027d]",
-			"level": "Advanced",
-			"tagline": "Layout design tool for print and digital publishing"
-		}
-	],
-	"projects": [
-		{
-			"id": "8",
-			"name": "My Portfolio",
-			"description": "I created this webpage to showcase my work and skills. I wanted to try using Next.js and TypeScript for a real project, since I had only used these tools for tutorials. I really liked the result and the workflow with Next.js.",
-			"tools": ["Nextjs", "Typescript", "Tailwind"],
-			"githubLink": "https://github.com/milarr65/portfolio",
-			"siteLink": "https://portfolio-smoky-omega-abrlrtt3eu.vercel.app/",
-			"imgPath": "/projects/portfolio.png",
-			"tagline": "My own webspace where I can showcase my work and skills"
-		},
-		{
-			"id": "1",
-			"name": "BlogUi",
-			"description": "A blog made with React and styled with Daisyui. It features a rich text editor that supports code blocks with syntax highlighting and media embeds. Anyone can add new posts, as well as edit and delete existing ones.",
-			"tools": ["React", "daisyui", "TipTap", "Tailwind", "Javascript"],
-			"githubLink": "https://github.com/milarr65/blog-app",
-			"siteLink": "https://blog-app-ten-flax.vercel.app/",
-			"imgPath": "/projects/blogui.png",
-			"tagline": "A blog where anyone can create and edit posts"
-		},
-		{
-			"id": "2",
-			"name": "Movie Finder",
-			"description": "Film and TV hub where you can get relevant details, pictures, and videos about any media. I got all the information from TMDB's API. This time around I chose to create all the styles myself instead of relying on a CSS library.",
-			"tools": ["Nodejs", "Express", "Javascript", "EJS", "CSS", "API"],
-			"githubLink": "https://github.com/milarr65/Movie-Finder",
-			"siteLink": "https://movie-finder-gly4.onrender.com/",
-			"imgPath": "/projects/movie-finder.png",
-			"tagline": "A film and tv hub with details, pictures and videos of popular media."
-		},
-		{
-			"id": "3",
-			"name": "Typing Speed Test",
-			"description": "A python app to test your typing speed. With customization options like test duration and difficulty. It can be run as a native app or in the browser. Inspired by monkeytype.",
-			"tools": ["Python", "CSS", "NiceGui"],
-			"githubLink": "https://github.com/milarr65/Typing-Speed-Test",
-			"siteLink": "https://typing-speed-test-vwkg.onrender.com",
-			"imgPath": "/projects/typing-speed-test.png",
-			"tagline": "A python app to test your typing speed."
-		},
-		{
-			"id": "4",
-			"name": "Book Notes",
-			"description": "Web app where I can keep track of the books I've read; reviews are stored in a Postgresql database (I migrated my db to supabase a little while ago). I used The Open Library API for book details and cover images.",
-			"tools": ["Nodejs", "Express", "Bootstrap", "PostgreSQL", "Supabase"],
-			"githubLink": "https://github.com/milarr65/Book-Notes",
-			"siteLink": "https://book-notes-rksb.onrender.com/",
-			"imgPath": "/projects/book-notes.png",
-			"tagline": "Website where I can rate and review the books I've read."
-		},
-		{
-			"id": "5",
-			"name": "Tic Tac Toe",
-			"description": "An interactive command line version of tic tac toe. You can play it by yourself (against the computer) or with a friend. It can handle invalid inputs and commands.",
-			"tools": ["Python", "CLI"],
-			"githubLink": "https://github.com/milarr65/Tic-Tac-Toe",
-			"siteLink": "",
-			"imgPath": "/projects/tictactoe.png",
-			"tagline": "An interactive command line version of tic tac toe"
-		},
-		{
-			"id": "6",
-			"name": "Watermark App",
-			"description": "This app lets you apply a text watermark to your pictures. You can customize the size, opacity, font and position of the watermark.",
-			"tools": ["Python", "CustomTkinter", "Pillow"],
-			"githubLink": "https://github.com/milarr65/Image-Watermarking-Desktop-App",
-			"siteLink": "",
-			"imgPath": "/projects/watermark-app.png",
-			"tagline": "This app let's you apply a watermark to your pictures"
-		},
-		{
-			"id": "7",
-			"name": "Morse Decoder",
-			"description": "A script that can convert Morse code to text and vice versa. It accepts symbols and numbers. Made for the terminal.",
-			"tools": ["Python"],
-			"githubLink": "https://github.com/milarr65/Text-to-Morse-Code-Converter",
-			"siteLink": "",
-			"imgPath": "/projects/morsecode.png",
-			"tagline": "A script that can convert Morse code to text"
-		}
-	],
-	"more-section": "<p>Hi! I'm Mila, a 25-year-old self-taught web developer based in Mexico City. I'm bilingual (Spanish is my first language, and I've studied English since childhood). I also enjoy learning other languages, I can even read and write some Korean.<br /><br />Originally, I was studying graphic design in college after having earned an associate's degree in high school. But during my time there, I took a <em>Web Design</em> class where I discovered how much I enjoyed working with HTML and CSS. That experience completely shifted my path: I realized I was more passionate about building websites than han graphic design.<br /><br />Since then, I've been focused on learning full-stack web development. I've completed online courses like <em>The Complete Full-Stack Web Development Bootcamp</em> and <em>100 Days of Code: The Complete Python Pro Bootcamp</em> both by Dr. Angela Yu, and I continue to build projects to strengthen my skills.<br /><br />Now, I'm working toward a career in web development, combining my design background with my passion for coding to create websites that are both functional and visually engaging.</p>"
+  "navbar": {
+    "links": [
+      { "id": "0", "label": "Experience", "href": "#experience" },
+      { "id": "1", "label": "Skills", "href": "#skills" },
+      { "id": "2", "label": "Projects", "href": "#projects" },
+      { "id": "3", "label": "Contact", "href": "#contact" },
+      { "id": "4", "label": "Resume", "href": "/camila_arroyo_resume_2026.pdf" }
+    ]
+  },
+  "hero": {
+    "tagline": "Full-Stack Web Developer",
+    "description": "I'm a self-taught web developer, continuously learning and building projects to strengthen my skills. Always curious, I enjoy exploring new technologies and challenges.",
+    "badges": [
+      {
+        "id": "1",
+        "name": "age",
+        "value": "25 years old",
+        "emoji": "📆"
+      },
+      {
+        "id": "2",
+        "name": "studies",
+        "value": "Graphic design",
+        "emoji": "🖌️"
+      },
+      {
+        "id": "3",
+        "name": "career",
+        "value": "Web development",
+        "emoji": "💻"
+      },
+      {
+        "id": "4",
+        "name": "location",
+        "value": "Mexico City",
+        "emoji": "🇲🇽"
+      }
+    ]
+  },
+  "experience": [
+    {
+      "id": "1",
+      "role": "Full-Stack Developer",
+      "company": "Risetech",
+      "period": "Jan 2026 – Present",
+      "location": "Remote",
+      "environment": "English-language environment",
+      "methodology": "Agile / Scrum",
+      "responsibilities": [
+        "Continue leading full-stack development of a multi-tenant SaaS PWA for construction workforce management in Mexico, built with Next.js, TypeScript, and Tailwind CSS.",
+        "Collaborate on QR-based check-in flows and OCR document scanning for worker onboarding, reducing manual data entry.",
+        "Maintain role-based access control (RBAC) and multi-tenant data isolation across Administrador and Checador user roles.",
+        "Integrate Microsoft Azure services: App Service, PSQL Database, Blob Storage, and Azure AD for authentication.",
+        "Collaborate in Agile / Scrum sprints, participate in sprint planning, daily stand-ups, and retrospectives."
+      ]
+    },
+    {
+      "id": "2",
+      "role": "Web Development Intern",
+      "company": "Risetech",
+      "period": "Oct 2025 – Jan 2026",
+      "location": "Remote",
+      "environment": "Next.js, TypeScript, Tailwind CSS, Microsoft Azure",
+      "methodology": "",
+      "responsibilities": [
+        "Built Ingressa from scratch: a Next.js (TypeScript + Tailwind CSS) PWA for a client in the Mexican construction industry.",
+        "Designed and implemented user authentication and role-based access control for multiple user types.",
+        "Collaborated on QR code scanning and OCR-based document capture features to automate worker registration workflows.",
+        "Integrate Microsoft Azure services: App Service, PSQL Database, Blob Storage, and Azure AD for authentication.",
+        "Collaborate in Agile / Scrum sprints, participate in sprint planning, daily stand-ups, and retrospectives."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "id": "prisma",
+      "label": "Prisma",
+      "categories": ["backend", "database"],
+      "color": "color-[#4db6ac]",
+      "styles": "hover:border-[#4db6ac] hover:shadow-[0_0_13px_#4db6ac]",
+      "level": "Advanced",
+      "tagline": "ORM for Node.js and TypeScript"
+    },
+    {
+      "id": "html",
+      "label": "HTML",
+      "categories": ["frontend"],
+      "color": "color-[#E34F26]",
+      "styles": "hover:border-[#E34F26] hover:shadow-[0_0_13px_#E34F26]",
+      "level": "Advanced",
+      "tagline": "Markup language for structuring web pages"
+    },
+    {
+      "id": "css",
+      "label": "CSS",
+      "categories": ["frontend", "design"],
+      "color": "color-[#3178C6]",
+      "styles": "hover:border-[#3178C6] hover:shadow-[0_0_13px_#3178C6]",
+      "level": "Advanced",
+      "tagline": "Stylesheet language for designing web pages"
+    },
+    {
+      "id": "javascript",
+      "label": "JavaScript",
+      "categories": ["frontend", "backend"],
+      "color": "color-[#F7DF1E]",
+      "styles": "hover:border-[#F7DF1E] hover:shadow-[0_0_13px_#F7DF1E]",
+      "level": "Advanced",
+      "tagline": "Programming language for interactivity and logic"
+    },
+    {
+      "id": "typescript",
+      "label": "TypeScript",
+      "categories": ["frontend", "backend"],
+      "color": "color-[#3178C6]",
+      "styles": "hover:border-[#3178C6] hover:shadow-[0_0_13px_#3178C6]",
+      "level": "Advanced",
+      "tagline": "Typed superset of JavaScript for safer coding"
+    },
+    {
+      "id": "react",
+      "label": "React",
+      "categories": ["frontend"],
+      "color": "color-[#61DAFB]",
+      "styles": "hover:border-[#61DAFB] hover:shadow-[0_0_13px_#61DAFB]",
+      "level": "Advanced",
+      "tagline": "Frontend framework for building UI components"
+    },
+    {
+      "id": "nextjs",
+      "label": "Next.js",
+      "categories": ["frontend", "backend", "fullstack"],
+      "color": "color-slate-400",
+      "styles": "hover:border-slate-400 hover:shadow-[0_0_13px_var(--color-slate-400)]",
+      "level": "Advanced",
+      "tagline": "Fullstack React framework with SSR and API routes"
+    },
+    {
+      "id": "nodejs",
+      "label": "Node.js",
+      "categories": ["backend"],
+      "color": "color-[#5FA04E]",
+      "styles": "hover:border-[#5FA04E] hover:shadow-[0_0_13px_#5FA04E]",
+      "level": "Intermediate",
+      "tagline": "JavaScript runtime for server-side development"
+    },
+    {
+      "id": "express",
+      "label": "Express",
+      "categories": ["backend", "api"],
+      "color": "color-slate-400",
+      "styles": "hover:border-slate-400 hover:shadow-[0_0_13px_var(--color-slate-400)]",
+      "level": "Intermediate",
+      "tagline": "Minimalist web framework for Node.js APIs"
+    },
+    {
+      "id": "python",
+      "label": "Python",
+      "categories": ["backend", "scripting"],
+      "color": "color-[#3776AB]",
+      "styles": "hover:border-[#3776AB] hover:shadow-[0_0_13px_#3776AB]",
+      "level": "Intermediate",
+      "tagline": "Versatile programming language for backend and scripting"
+    },
+    {
+      "id": "psql",
+      "label": "PostgreSQL",
+      "categories": ["database"],
+      "color": "color-[#4169E1]",
+      "styles": "hover:border-[#4169E1] hover:shadow-[0_0_13px_#4169E1]",
+      "level": "Advanced",
+      "tagline": "Powerful open-source relational database"
+    },
+    {
+      "id": "supabase",
+      "label": "Supabase",
+      "categories": ["database", "backend", "auth", "fullstack"],
+      "color": "color-[#3FCF8E]",
+      "styles": "hover:border-[#3FCF8E] hover:shadow-[0_0_13px_#3FCF8E]",
+      "level": "Intermediate",
+      "tagline": "Open-source Firebase alternative powered by PostgreSQL"
+    },
+    {
+      "id": "axios",
+      "label": "Axios",
+      "categories": ["frontend", "backend", "api"],
+      "color": "color-[#5A29E4]",
+      "styles": "hover:border-[#5A29E4] hover:shadow-[0_0_13px_#5A29E4]",
+      "level": "Intermediate",
+      "tagline": "Promise-based HTTP client for APIs"
+    },
+    {
+      "id": "tailwind",
+      "label": "Tailwind CSS",
+      "categories": ["frontend", "design"],
+      "color": "color-[#61DAFB]",
+      "styles": "hover:border-[#61DAFB] hover:shadow-[0_0_13px_#61DAFB]",
+      "level": "Advanced",
+      "tagline": "Design system & utility-first CSS framework"
+    },
+    {
+      "id": "git",
+      "label": "Git",
+      "categories": ["devtools", "version-control"],
+      "color": "color-[#F05032]",
+      "styles": "hover:border-[#F05032] hover:shadow-[0_0_13px_#F05032]",
+      "level": "Advanced",
+      "tagline": "Version control system for tracking code changes"
+    },
+    {
+      "id": "github",
+      "label": "GitHub",
+      "categories": ["devtools", "version-control", "collaboration"],
+      "color": "color-slate-400",
+      "styles": "hover:border-slate-400 hover:shadow-[0_0_13px_slate-400]",
+      "level": "Basic",
+      "tagline": "Platform for hosting and collaborating on Git repositories"
+    },
+    {
+      "id": "photoshop",
+      "label": "Photoshop",
+      "categories": ["design"],
+      "color": "color-[#80B3FF]",
+      "styles": "hover:border-[#80B3FF] hover:shadow-[0_0_13px_#80B3FF]",
+      "level": "Advanced",
+      "tagline": "Image editing and design tool"
+    },
+    {
+      "id": "illustrator",
+      "label": "Illustrator",
+      "categories": ["design"],
+      "color": "color-[#F05032]",
+      "styles": "hover:border-[#F05032] hover:shadow-[0_0_13px_#F05032]",
+      "level": "Advanced",
+      "tagline": "Vector graphics editor for logos and illustrations"
+    },
+    {
+      "id": "indesign",
+      "label": "InDesign",
+      "categories": ["design"],
+      "color": "color-[#c4027d]",
+      "styles": "hover:border-[#c4027d] hover:shadow-[0_0_13px_#c4027d]",
+      "level": "Advanced",
+      "tagline": "Layout design tool for print and digital publishing"
+    }
+  ],
+  "projects": [
+    {
+      "id": "8",
+      "name": "My Portfolio",
+      "description": "I created this webpage to showcase my work and skills. I wanted to try using Next.js and TypeScript for a real project, since I had only used these tools for tutorials. I really liked the result and the workflow with Next.js.",
+      "tools": ["Nextjs", "Typescript", "Tailwind"],
+      "githubLink": "https://github.com/milarr65/portfolio",
+      "siteLink": "https://portfolio-smoky-omega-abrlrtt3eu.vercel.app/",
+      "imgPath": "/projects/portfolio.png",
+      "tagline": "My own webspace where I can showcase my work and skills"
+    },
+    {
+      "id": "1",
+      "name": "BlogUi",
+      "description": "A blog made with React and styled with Daisyui. It features a rich text editor that supports code blocks with syntax highlighting and media embeds. Anyone can add new posts, as well as edit and delete existing ones.",
+      "tools": ["React", "daisyui", "TipTap", "Tailwind", "Javascript"],
+      "githubLink": "https://github.com/milarr65/blog-app",
+      "siteLink": "https://blog-app-ten-flax.vercel.app/",
+      "imgPath": "/projects/blogui.png",
+      "tagline": "A blog where anyone can create and edit posts"
+    },
+    {
+      "id": "2",
+      "name": "Movie Finder",
+      "description": "Film and TV hub where you can get relevant details, pictures, and videos about any media. I got all the information from TMDB's API. This time around I chose to create all the styles myself instead of relying on a CSS library.",
+      "tools": ["Nodejs", "Express", "Javascript", "EJS", "CSS", "API"],
+      "githubLink": "https://github.com/milarr65/Movie-Finder",
+      "siteLink": "https://movie-finder-gly4.onrender.com/",
+      "imgPath": "/projects/movie-finder.png",
+      "tagline": "A film and tv hub with details, pictures and videos of popular media."
+    },
+    {
+      "id": "3",
+      "name": "Typing Speed Test",
+      "description": "A python app to test your typing speed. With customization options like test duration and difficulty. It can be run as a native app or in the browser. Inspired by monkeytype.",
+      "tools": ["Python", "CSS", "NiceGui"],
+      "githubLink": "https://github.com/milarr65/Typing-Speed-Test",
+      "siteLink": "https://typing-speed-test-vwkg.onrender.com",
+      "imgPath": "/projects/typing-speed-test.png",
+      "tagline": "A python app to test your typing speed."
+    },
+    {
+      "id": "4",
+      "name": "Book Notes",
+      "description": "Web app where I can keep track of the books I've read; reviews are stored in a Postgresql database (I migrated my db to supabase a little while ago). I used The Open Library API for book details and cover images.",
+      "tools": ["Nodejs", "Express", "Bootstrap", "PostgreSQL", "Supabase"],
+      "githubLink": "https://github.com/milarr65/Book-Notes",
+      "siteLink": "https://book-notes-rksb.onrender.com/",
+      "imgPath": "/projects/book-notes.png",
+      "tagline": "Website where I can rate and review the books I've read."
+    },
+    {
+      "id": "5",
+      "name": "Tic Tac Toe",
+      "description": "An interactive command line version of tic tac toe. You can play it by yourself (against the computer) or with a friend. It can handle invalid inputs and commands.",
+      "tools": ["Python", "CLI"],
+      "githubLink": "https://github.com/milarr65/Tic-Tac-Toe",
+      "siteLink": "",
+      "imgPath": "/projects/tictactoe.png",
+      "tagline": "An interactive command line version of tic tac toe"
+    },
+    {
+      "id": "6",
+      "name": "Watermark App",
+      "description": "This app lets you apply a text watermark to your pictures. You can customize the size, opacity, font and position of the watermark.",
+      "tools": ["Python", "CustomTkinter", "Pillow"],
+      "githubLink": "https://github.com/milarr65/Image-Watermarking-Desktop-App",
+      "siteLink": "",
+      "imgPath": "/projects/watermark-app.png",
+      "tagline": "This app let's you apply a watermark to your pictures"
+    },
+    {
+      "id": "7",
+      "name": "Morse Decoder",
+      "description": "A script that can convert Morse code to text and vice versa. It accepts symbols and numbers. Made for the terminal.",
+      "tools": ["Python"],
+      "githubLink": "https://github.com/milarr65/Text-to-Morse-Code-Converter",
+      "siteLink": "",
+      "imgPath": "/projects/morsecode.png",
+      "tagline": "A script that can convert Morse code to text"
+    }
+  ],
+  "more-section": "<p>Hi! I'm Mila, a 25-year-old self-taught web developer based in Mexico City. I'm bilingual (Spanish is my first language, and I've studied English since childhood). I also enjoy learning other languages, I can even read and write some Korean.<br /><br />Originally, I was studying graphic design in college after having earned an associate's degree in high school. But during my time there, I took a <em>Web Design</em> class where I discovered how much I enjoyed working with HTML and CSS. That experience completely shifted my path: I realized I was more passionate about building websites than han graphic design.<br /><br />Since then, I've been focused on learning full-stack web development. I've completed online courses like <em>The Complete Full-Stack Web Development Bootcamp</em> and <em>100 Days of Code: The Complete Python Pro Bootcamp</em> both by Dr. Angela Yu, and I continue to build projects to strengthen my skills.<br /><br />Now, I'm working toward a career in web development, combining my design background with my passion for coding to create websites that are both functional and visually engaging.</p>"
 }

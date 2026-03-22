@@ -21,7 +21,7 @@ export default function LanguageSwitcher({
       variant="outline"
       className={className}
       value={value}
-      onValueChange={(value) => {
+      onValueChange={value => {
         if (value === "en" || value === "es") {
           setValue(value);
           switchTo(value);

@@ -1,9 +1,9 @@
 allowedBuiltDependencies:
-  - '@tailwindcss/oxide'
+  - "@tailwindcss/oxide"
   - sharp
   - unrs-resolver
 
 onlyBuiltDependencies:
-  - '@tailwindcss/oxide'
+  - "@tailwindcss/oxide"
   - sharp
   - unrs-resolver
