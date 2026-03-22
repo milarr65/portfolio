@@ -22,12 +22,6 @@ function getLocale(req: NextRequest): Locale {
 
 export default function middleware(req: NextRequest) {
 	const { pathname } = req.nextUrl;
-	// console.log("[middleware] hit", pathname);
-	// SKIP INTERNAL AND STATIC FILES
-	if (pathname.startsWith("/_next")) return NextResponse.next(); // next internals
-	if (pathname.startsWith("/api")) return NextResponse.next(); // api routes
-	if (pathname === "/favicon.ico") return NextResponse.next(); //favicon
-	if (pathname.includes(".")) return NextResponse.next(); // .jpeg, .svg, .png, etc...
 
 	// If pathname already has locale, do nothing
 	const firstSegment = pathname.split("/")[1];
@@ -41,5 +35,5 @@ export default function middleware(req: NextRequest) {
 }
 
 export const config = {
-	matcher: ["/:path*"],
+	matcher: ["/((?!_next|api|.*\\.).*)"],
 };
